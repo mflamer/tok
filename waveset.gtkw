@@ -1,0 +1,56 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Mon Dec 28 03:22:00 2020
+[*]
+[dumpfile] "C:\cloud\dev\verilog\tok\wave.vcd"
+[dumpfile_mtime] "Mon Dec 28 03:21:28 2020"
+[dumpfile_size] 33973
+[savefile] "C:\cloud\dev\verilog\tok\waveset.gtkw"
+[timestart] 0
+[size] 2560 1377
+[pos] -1 -1
+*-3.000000 7 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test.
+[treeopen] test.tok.
+[sst_width] 197
+[signals_width] 199
+[sst_expanded] 1
+[sst_vpaned_height] 735
+@28
+test.tok.reset
+test.tok.clk
+@22
+test.tok.tc[7:0]
+test.tok.tc_[7:0]
+@820
+test.tok.T[7:0]
+@22
+test.tok.A[15:0]
+test.tok.S[15:0]
+test.tok.key_rd[15:0]
+test.tok.table_rd[15:0]
+test.tok.idx[7:0]
+@28
+test.tok.table_search
+test.tok.table_write
+test.tok.write_slot
+test.tok.found_slot
+test.tok.stall
+@22
+test.tok.depth[3:0]
+test.tok.depth_[3:0]
+test.tok.c_stk_r[7:0]
+test.tok.c_stk_w[7:0]
+@28
+test.tok.search_clk
+test.tok.uart_stall
+test.tok.uart_rx_valid
+test.tok.uart_tx_busy
+test.tok.uart_wr
+test.tok.uart_rd
+@22
+test.tok.uart_rx_data[7:0]
+@29
+test.tok.write_flag
+[pattern_trace] 1
+[pattern_trace] 0

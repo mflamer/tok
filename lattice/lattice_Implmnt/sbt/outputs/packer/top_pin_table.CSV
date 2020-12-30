@@ -1,0 +1,58 @@
+* ******************************************************************************
+
+* iCEcube Pin Table
+
+* Version:            2017.08.27940
+
+* Build Date:         Sep 11 2017 16:52:36
+
+* File Generated:     Dec 29 2020 20:58:12
+
+* Purpose:            Detailed IO and package pin info
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Device, iCE40UL1K
+Package, CM36A
+
+Pin Number, Pin Type Name, Signal Name, Direction, Global Buffer, IO Standard, Pull Up, Pullup resistor, IO Function, IO Bank, 
+---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, 
+A1, PIO_RGB, not used, , , , , , , topBank
+A2, PIO_RGB, not used, , , , , , , topBank
+A3, PIO, rx, Input, , SB_LVCMOS, No Pull Up, , Simple Input, topBank
+A4, PIO, not used, , , , , , , topBank
+A5, PIO_BARCODE, not used, , , , , , , topBank
+A6, PIO_LED, not used, , , , , , , topBank
+B1, PIO_RGB, not used, , , , , , , topBank
+B2, PIO, reset, Input, , SB_LVCMOS, No Pull Up, , Simple Input, topBank
+B3, VCCIO_0, not used, , , , , , , topBank
+B4, VPP, not used, , , , , , , topBank
+B5, PIO, not used, , , , , , , topBank
+B6, PIO_GBIN, not used, , , , , , , topBank
+C1, PIO, not used, , , , , , , bottomBank
+C2, PIO, tx, Output, , SB_LVCMOS, No Pull Up, , Simple Output, topBank
+C3, GND, not used, , , , , , , UnknownBank
+C4, GND, not used, , , , , , , UnknownBank
+C5, VSSIO_LED, not used, , , , , , , topBank
+C6, PIO_GBIN, not used, , , , , , , topBank
+D1, PIO, not used, , , , , , , bottomBank
+D2, PIO_GBIN, not used, , , , , , , bottomBank
+D3, VCC, not used, , , , , , , UnknownBank
+D4, AVDD, not used, , , , , , , UnknownBank
+D5, PIO, not used, , , , , , , bottomBank
+D6, PIO, not used, , , , , , , bottomBank
+E1, PIO, not used, , , , , , , bottomBank
+E2, PIO, not used, , , , , , , bottomBank
+E3, VCCIO_2, not used, , , , , , , bottomBank
+E4, VDDIO_SPI, not used, , , , , , , bottomBank
+E5, SPI_SI, not used, , , , , , , bottomBank
+E6, SPI_SCK, not used, , , , , , , bottomBank
+F1, PIO, not used, , , , , , , bottomBank
+F2, PIO_GBIN, not used, , , , , , , bottomBank
+F3, PIO_GBIN, not used, , , , , , , bottomBank
+F4, CRESET_B, not used, , , , , , , bottomBank
+F5, SPI_SS_B, not used, , , , , , , bottomBank
+F6, SPI_SO, not used, , , , , , , bottomBank
+Total Number of Used Pins, 3

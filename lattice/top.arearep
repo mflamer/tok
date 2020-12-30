@@ -1,0 +1,116 @@
+----------------------------------------------------------------------
+Report for cell top.TECH
+Register bits:  309 of 1000 (30.900%)
+I/O cells:      0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY        86          100.0
+                             SB_DFF        43          100.0
+                            SB_DFFE       201          100.0
+                           SB_DFFER        16          100.0
+                          SB_DFFESR        10          100.0
+                          SB_DFFESS         1          100.0
+                            SB_DFFR        14          100.0
+                            SB_DFFS         8          100.0
+                           SB_DFFSR        14          100.0
+                           SB_DFFSS         2          100.0
+                           SB_HFOSC         1          100.0
+                              SB_IO         3          100.0
+                            SB_LUT4       792          100.0
+                       SB_RAM256x16         2          100.0
+                        SB_RAM512x8         1          100.0
+                        VERIFIC_PWR         6          100.0
+SUB MODULES
+                                RAM         1
+RAM(init_file="blank256.hex",data_width=16)         1
+RAM(init_file="blank256.hex",data_width=16)_U0         1
+                              STACK         1
+                    STACK(WIDTH=16)         1
+                                TOK         1
+                               UART         1
+                              TOTAL      1207
+----------------------------------------------------------------------
+Report for cell TOK.v1
+Instance Path : tok
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY        86          100.0
+                             SB_DFF        43          100.0
+                            SB_DFFE       201          100.0
+                           SB_DFFER        16          100.0
+                          SB_DFFESR        10          100.0
+                          SB_DFFESS         1          100.0
+                            SB_DFFR        14          100.0
+                            SB_DFFS         8          100.0
+                           SB_DFFSR        14          100.0
+                           SB_DFFSS         2          100.0
+                            SB_LUT4       747           94.3
+                       SB_RAM256x16         2          100.0
+                        SB_RAM512x8         1          100.0
+                        VERIFIC_PWR         5           83.3
+SUB MODULES
+                                RAM         1
+RAM(init_file="blank256.hex",data_width=16)         1
+RAM(init_file="blank256.hex",data_width=16)_U0         1
+                              STACK         1
+                    STACK(WIDTH=16)         1
+                               UART         1
+                              TOTAL      1156
+----------------------------------------------------------------------
+Report for cell RAM(init_file="blank256.hex",data_width=16).v1
+Instance Path : tok.vals
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                       SB_RAM256x16         1           50.0
+                        VERIFIC_PWR         1           16.7
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell UART.v1
+Instance Path : tok.uart
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY        19           22.1
+                             SB_DFF        19           44.2
+                            SB_DFFE         9            4.5
+                          SB_DFFESR        10          100.0
+                          SB_DFFESS         1          100.0
+                           SB_DFFSR        14          100.0
+                           SB_DFFSS         2          100.0
+                            SB_LUT4        56            7.1
+                        VERIFIC_PWR         1           16.7
+                              TOTAL       131
+----------------------------------------------------------------------
+Report for cell RAM.v1
+Instance Path : tok.ram
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            SB_LUT4        56            7.1
+                        SB_RAM512x8         1          100.0
+                        VERIFIC_PWR         1           16.7
+                              TOTAL        58
+----------------------------------------------------------------------
+Report for cell RAM(init_file="blank256.hex",data_width=16)_U0.v1
+Instance Path : tok.keys
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                       SB_RAM256x16         1           50.0
+                        VERIFIC_PWR         1           16.7
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell STACK.v1
+Instance Path : tok.C_stk
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF         8           18.6
+                            SB_DFFE        64           31.8
+                            SB_LUT4        41            5.2
+                              TOTAL       113
+----------------------------------------------------------------------
+Report for cell STACK(WIDTH=16).v1
+Instance Path : tok.A_stk
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF        16           37.2
+                            SB_DFFE       128           63.7
+                            SB_LUT4       128           16.2
+                              TOTAL       272

@@ -1,0 +1,217 @@
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Tue Dec 29 20:56:20 2020
+
+
+Command Line:  C:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f lattice_lse.prj 
+
+Synthesis options:
+The -a option is SBTiCE40UL.
+The -t option is CM36A.
+The -d option is iCE40UL1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40UL
+
+### Device  : iCE40UL1K
+
+### Package : CM36A
+
+### Number of Logic Cells: 1000
+
+### Number of RAM4k Blocks: 14
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 18
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+The -top option is not used.
+Target frequency = 24.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = lattice_Implmnt/lattice.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/cloud/dev/verilog/tok/lattice (searchpath added)
+Verilog design file = ../ram.v
+Verilog design file = ../stack.v
+Verilog design file = ../test.v
+Verilog design file = ../tok.v
+Verilog design file = ../uart.v
+Verilog design file = ../lattice_top.v
+-sdc option: SDC file input not used.
+WARNING - synthesis: Setting top as the top-level module. To specify the top-level module explicitly, use the -top option.
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file ../ram.v. VERI-1482
+Analyzing Verilog file ../stack.v. VERI-1482
+Analyzing Verilog file ../test.v. VERI-1482
+Analyzing Verilog file ../tok.v. VERI-1482
+WARNING - synthesis: ../tok.v(21): identifier uart_rx_valid is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(21): identifier T is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(22): identifier uart_tx_busy is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(22): identifier T is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(27): identifier T is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(27): identifier T is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(30): identifier T is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(31): identifier A is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(40): identifier stall is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(40): identifier depth is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(57): identifier tc_plus_1 is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(57): identifier tc is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(57): identifier A is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(61): identifier stall is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(61): identifier depth is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(80): identifier A is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(81): identifier A is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(84): identifier tc_plus_1 is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(88): identifier A is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(104): identifier depth is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(105): identifier depth_ is used before its declaration. VERI-1875
+Analyzing Verilog file ../uart.v. VERI-1482
+Analyzing Verilog file ../lattice_top.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(79): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(88): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(98): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(108): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(118): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(170): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(179): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(189): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(199): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(209): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(3725): empty port in module declaration. VERI-1294
+Top module name (Verilog): top
+INFO - synthesis: ../lattice_top.v(4): compiling module top. VERI-1018
+INFO - synthesis: ../tok.v(12): compiling module TOK. VERI-1018
+WARNING - synthesis: ../tok.v(141): expression size 16 truncated to fit in target size 8. VERI-1209
+INFO - synthesis: ../ram.v(3): compiling module RAM. VERI-1018
+INFO - synthesis: ../stack.v(3): compiling module STACK(WIDTH=16). VERI-1018
+INFO - synthesis: ../stack.v(3): compiling module STACK. VERI-1018
+INFO - synthesis: ../ram.v(3): compiling module RAM(init_file="blank256.hex",data_width=16). VERI-1018
+INFO - synthesis: ../uart.v(3): compiling module UART. VERI-1018
+WARNING - synthesis: ../uart.v(31): expression size 32 truncated to fit in target size 7. VERI-1209
+WARNING - synthesis: ../uart.v(38): expression size 32 truncated to fit in target size 6. VERI-1209
+WARNING - synthesis: ../uart.v(59): expression size 32 truncated to fit in target size 9. VERI-1209
+WARNING - synthesis: ../uart.v(63): expression size 32 truncated to fit in target size 4. VERI-1209
+INFO - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4021): compiling module SB_HFOSC(CLKHF_DIV="0b01"). VERI-1018
+Loading NGL library 'C:/lscc/iCEcube2.2017.08/LSE/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/iCEcube2.2017.08/LSE/or5g00/data/orc5glib.ngl'...
+Top-level module name = top.
+
+
+
+######## Found 3 RTL RAMs in the design.
+WARNING - synthesis: Possible simulation mismatch due to read/write collision in RAM block : \tok/keys/mem
+######## Mapping RTL RAM \tok/keys/mem to 1 EBR blocks in SINGLE_PORT Mode
+
+WARNING - synthesis: Possible simulation mismatch due to read/write collision in RAM block : \tok/vals/mem
+######## Mapping RTL RAM \tok/vals/mem to 1 EBR blocks in SINGLE_PORT Mode
+
+######## Mapping RTL RAM \tok/ram/mem to 1 EBR blocks in PSEUDO_DUAL_PORT Mode
+
+Applying 24.000000 MHz constraint to all clocks
+
+Writing scf file : lattice_Implmnt/lattice.scf
+
+Results of NGD DRC are available in top_drc.log.
+
+################### Begin Area Report (top)######################
+Number of register bits => 309 of 1000 (30 % )
+SB_CARRY => 86
+SB_DFF => 43
+SB_DFFE => 201
+SB_DFFER => 16
+SB_DFFESR => 10
+SB_DFFESS => 1
+SB_DFFR => 14
+SB_DFFS => 8
+SB_DFFSR => 14
+SB_DFFSS => 2
+SB_HFOSC => 1
+SB_IO => 3
+SB_LUT4 => 792
+SB_RAM256x16 => 2
+SB_RAM512x8 => 1
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 1
+  Net : clk, loads : 312
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : tok/rd_15__N_301, loads : 143
+  Net : tok/A_stk_delta_1, loads : 127
+  Net : tok/n29_adj_787, loads : 65
+  Net : tok/n2515, loads : 65
+  Net : tok/C_stk_delta_0, loads : 64
+  Net : tok/ram/T_0, loads : 56
+  Net : tok/ram/T_2, loads : 53
+  Net : tok/ram/T_1, loads : 49
+  Net : tok/reset_N_2, loads : 38
+  Net : tok/ram/T_3, loads : 37
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 41.666667 -name    |             |             |
+clk0 [get_nets clk]                     |   24.000 MHz|   30.484 MHz|    21  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Peak Memory Usage: 68.637  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 2.813  secs
+--------------------------------------------------------------

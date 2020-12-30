@@ -1,0 +1,35 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40UL1KCM36A (Lattice)
+
+---------------------------------------------------------------------
+########   Utilization report for  Top level view:   buart   ########
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     60                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block buart:	60 (32.26 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       92                 100 %                
+CARRYS     8                  100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block buart:	100 (53.76 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     24                 100 %                
+=================================================
+Total IO PADS in the block buart:	24 (12.90 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

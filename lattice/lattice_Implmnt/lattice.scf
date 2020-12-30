@@ -1,0 +1,2 @@
+ create_clock -period 41.667 -waveform {0.000 20.833} -name {top|clk} [ get_nets clk ]
+create_clock -period  20.833300 -name clk [ get_nets clk] 

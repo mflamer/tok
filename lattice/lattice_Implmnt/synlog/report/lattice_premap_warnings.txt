@@ -1,0 +1,4 @@
+@W: MO156 :"c:\cloud\dev\verilog\tok\ram.v":12:4:12:9|RAM mem[7:0] removed due to constant propagation. 
+@W: MO156 :"c:\cloud\dev\verilog\tok\ram.v":12:4:12:9|RAM mem[15:0] removed due to constant propagation. 
+@W: MO156 :"c:\cloud\dev\verilog\tok\ram.v":12:4:12:9|RAM mem[15:0] removed due to constant propagation. 
+@W: MT529 :"c:\cloud\dev\verilog\tok\uart.v":63:0:63:5|Found inferred clock top|clk_inferred_clock which controls 76 sequential elements including tok.uart.sentbits[3:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

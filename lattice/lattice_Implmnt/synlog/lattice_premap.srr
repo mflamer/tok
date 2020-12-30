@@ -1,0 +1,85 @@
+# Sat Dec 26 17:11:23 2020
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice_scck.rpt 
+Printing clock  summary report in "C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+@W: MO156 :"c:\cloud\dev\verilog\tok\ram.v":12:4:12:9|RAM mem[7:0] removed due to constant propagation. 
+@W: MO156 :"c:\cloud\dev\verilog\tok\ram.v":12:4:12:9|RAM mem[15:0] removed due to constant propagation. 
+@W: MO156 :"c:\cloud\dev\verilog\tok\ram.v":12:4:12:9|RAM mem[15:0] removed due to constant propagation. 
+@N: BN115 :"c:\cloud\dev\verilog\tok\tok.v":193:6:193:10|Removing instance C_stk (in view: work.TOK(verilog)) of type view:work.STACK_8s_8s_63s(verilog) because it does not drive other instances.
+@N: BN115 :"c:\cloud\dev\verilog\tok\tok.v":170:4:170:6|Removing instance ram (in view: work.TOK(verilog)) of type view:work.RAM_init\.hex_8s_8s(verilog) because it does not drive other instances.
+@N: BN115 :"c:\cloud\dev\verilog\tok\tok.v":203:4:203:7|Removing instance keys (in view: work.TOK(verilog)) of type view:work.RAM_blank256\.hex_8s_16s_1(verilog) because it does not drive other instances.
+@N: BN115 :"c:\cloud\dev\verilog\tok\tok.v":216:4:216:7|Removing instance vals (in view: work.TOK(verilog)) of type view:work.RAM_blank256\.hex_8s_16s_0(verilog) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\tok.v":150:2:150:7|Removing sequential instance idx[7:0] (in view: work.TOK(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"c:\cloud\dev\verilog\tok\tok.v":183:6:183:10|Removing instance A_stk (in view: work.TOK(verilog)) of type view:work.STACK_8s_16s_127s(verilog) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":50:0:50:5|Removing sequential instance valid (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":50:0:50:5|Removing sequential instance rx_data[7:0] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":50:0:50:5|Removing sequential instance error (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=16  set on top level netlist top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+
+Clock Summary
+*****************
+
+Start                      Requested     Requested     Clock        Clock                     Clock
+Clock                      Frequency     Period        Type         Group                     Load 
+---------------------------------------------------------------------------------------------------
+top|clk_inferred_clock     48.0 MHz      20.830        inferred     Autoconstr_clkgroup_0     76   
+===================================================================================================
+
+@W: MT529 :"c:\cloud\dev\verilog\tok\uart.v":63:0:63:5|Found inferred clock top|clk_inferred_clock which controls 76 sequential elements including tok.uart.sentbits[3:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[0] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[1] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[2] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[3] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[4] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[5] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[6] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[7] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[8] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[9] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Dec 26 17:11:24 2020
+
+###########################################################]

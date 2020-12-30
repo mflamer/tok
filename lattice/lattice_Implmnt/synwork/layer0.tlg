@@ -1,0 +1,54 @@
+Selecting top level module top
+@N: CG364 :"C:\cloud\dev\verilog\tok\ram.v":3:7:3:9|Synthesizing module RAM in library work.
+
+	init_file=64'b0110100101101110011010010111010000101110011010000110010101111000
+	addr_width=32'b00000000000000000000000000001000
+	data_width=32'b00000000000000000000000000001000
+   Generated name = RAM_init.hex_8s_8s
+
+@W: CG371 :"C:\cloud\dev\verilog\tok\ram.v":24:8:24:16|Cannot find data file init.hex for task $readmemh
+@W: CG532 :"C:\cloud\dev\verilog\tok\ram.v":22:4:22:10|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@N: CL134 :"C:\cloud\dev\verilog\tok\ram.v":12:4:12:9|Found RAM mem, depth=256, width=8
+@N: CG364 :"C:\cloud\dev\verilog\tok\stack.v":3:7:3:11|Synthesizing module STACK in library work.
+
+	DEPTH=32'b00000000000000000000000000001000
+	WIDTH=32'b00000000000000000000000000010000
+	BITS=32'b00000000000000000000000001111111
+   Generated name = STACK_8s_16s_127s
+
+@N: CG364 :"C:\cloud\dev\verilog\tok\stack.v":3:7:3:11|Synthesizing module STACK in library work.
+
+	DEPTH=32'b00000000000000000000000000001000
+	WIDTH=32'b00000000000000000000000000001000
+	BITS=32'b00000000000000000000000000111111
+   Generated name = STACK_8s_8s_63s
+
+@N: CG364 :"C:\cloud\dev\verilog\tok\ram.v":3:7:3:9|Synthesizing module RAM in library work.
+
+	init_file=96'b011000100110110001100001011011100110101100110010001101010011011000101110011010000110010101111000
+	addr_width=32'b00000000000000000000000000001000
+	data_width=32'b00000000000000000000000000010000
+   Generated name = RAM_blank256.hex_8s_16s
+
+@W: CG371 :"C:\cloud\dev\verilog\tok\ram.v":24:8:24:16|Cannot find data file blank256.hex for task $readmemh
+@W: CG532 :"C:\cloud\dev\verilog\tok\ram.v":22:4:22:10|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@N: CL134 :"C:\cloud\dev\verilog\tok\ram.v":12:4:12:9|Found RAM mem, depth=256, width=16
+@N: CG364 :"C:\cloud\dev\verilog\tok\uart.v":3:7:3:10|Synthesizing module UART in library work.
+
+@N: CG179 :"C:\cloud\dev\verilog\tok\uart.v":45:82:45:88|Removing redundant assignment.
+@N: CG179 :"C:\cloud\dev\verilog\tok\uart.v":52:44:52:48|Removing redundant assignment.
+@N: CG179 :"C:\cloud\dev\verilog\tok\uart.v":53:42:53:48|Removing redundant assignment.
+@N: CG179 :"C:\cloud\dev\verilog\tok\uart.v":54:46:54:50|Removing redundant assignment.
+@N: CG179 :"C:\cloud\dev\verilog\tok\uart.v":66:92:66:97|Removing redundant assignment.
+@N: CG364 :"C:\cloud\dev\verilog\tok\tok.v":11:7:11:9|Synthesizing module TOK in library work.
+
+@W: CG360 :"C:\cloud\dev\verilog\tok\tok.v":30:7:30:16|Removing wire write_flag, as there is no assignment to it.
+@W: CG133 :"C:\cloud\dev\verilog\tok\tok.v":31:12:31:21|Object addr_write is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"C:\cloud\dev\verilog\tok\tok.v":150:2:150:7|Pruning unused register search_clk. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v":4020:7:4020:14|Synthesizing module SB_HFOSC in library work.
+
+@N: CG364 :"C:\cloud\dev\verilog\tok\lattice_top.v":4:7:4:9|Synthesizing module top in library work.
+
+@A: CL153 :"C:\cloud\dev\verilog\tok\tok.v":31:12:31:21|*Unassigned bits of addr_write[7:0] are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL156 :"C:\cloud\dev\verilog\tok\tok.v":30:7:30:16|*Input write_flag to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@N: CL159 :"C:\cloud\dev\verilog\tok\uart.v":5:10:5:15|Input resetq is unused.

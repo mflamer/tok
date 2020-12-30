@@ -1,0 +1,15 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MT206 |Auto Constrain mode is enabled
+@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":63:0:63:5|Removing sequential instance sentbits[3:0] (in view: work.UART(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":38:0:38:5|Removing sequential instance bytephase[5:0] (in view: work.UART(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":31:0:31:5|Removing sequential instance rxclkcounter[7:0] (in view: work.UART(verilog)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[9:0] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\tok.v":150:2:150:7|Removing sequential instance A[15:0] (in view: work.TOK(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\tok.v":150:2:150:7|Removing sequential instance depth[3:0] (in view: work.TOK(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\cloud\dev\verilog\tok\tok.v":150:2:150:7|Removing sequential instance tc[7:0] (in view: work.TOK(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice.edf
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

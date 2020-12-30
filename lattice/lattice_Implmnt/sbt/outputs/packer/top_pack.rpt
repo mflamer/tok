@@ -1,0 +1,93 @@
+* ******************************************************************************
+
+* iCEcube Report
+
+* Version:            2017.08.27940
+
+* Build Date:         Sep 11 2017 16:52:36
+
+* File Generated:     Dec 29 2020 20:58:12
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Synthesis/Placement Summary:
+----------------------------
+    Status:  Successful
+    Runtime: 1 seconds
+
+Device Info:
+------------
+    Device Family: iCE40
+    Device:        iCE40UL1K
+    Package:       CM36A
+
+Design statistics:
+------------------
+    FFs:                  309
+    LUTs:                 799
+    RAMs:                 3
+    IOBs:                 3
+    GBs:                  0
+    PLLs:                 0
+    Warm Boots:           0
+    I2C_FIFOs:            0
+    HFOSCs:               1
+    LFOSCs:               0
+    RGBA_DRVs:            0
+    IR400_DRVs:           0
+    IR500_DRVs:           0
+    BARCODE_DRVs:         0
+    LEDDA_IPs:            0
+    IR_IPs:               0
+
+Logic Resource Utilization:
+---------------------------
+    Total Logic Cells: 800/1248
+        Combinational Logic Cells: 491      out of   1248      39.3429%
+        Sequential Logic Cells:    309      out of   1248      24.7596%
+        Logic Tiles:               116      out of   156       74.359%
+    Registers: 
+        Logic Registers:           309      out of   1248      24.7596%
+        IO Registers:              0        out of   240       0
+    Block RAMs:                    3        out of   14        21.4286%
+    Warm Boots:                    0        out of   1         0%
+    I2C_FIFOs:                     0        out of   2         0%
+    HFOSCs:                        1        out of   1         100%
+    LFOSCs:                        0        out of   1         0%
+    RGBA_DRVs:                     0        out of   1         0%
+    IR400_DRVs:                    0        out of   1         0%
+    IR500_DRVs:                    0        out of   1         0%
+    BARCODE_DRVs:                  0        out of   1         0%
+    LEDDA_IPs:                     0        out of   1         0%
+    IR_IPs:                        0        out of   1         0%
+    Pins:
+        Input Pins:                2        out of   26        7.69231%
+        Output Pins:               1        out of   26        3.84615%
+        InOut Pins:                0        out of   26        0%
+    Global Buffers:                0        out of   8         0%
+    PLLs:                          0        out of   1         0%
+
+IO Bank Utilization:
+--------------------
+    Bank 3: 0        out of   0         0%
+    Bank 1: 0        out of   0         0%
+    Bank 0: 3        out of   12        25%
+    Bank 2: 0        out of   14        0%
+
+Detailed I/O Info:
+------------------
+    Input Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name
+    ----------  ---------  -----------  -------  -------  -----------    -----------
+    A3          Input      SB_LVCMOS    No       0        Simple Input   rx     
+    B2          Input      SB_LVCMOS    No       0        Simple Input   reset  
+
+    Output Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name
+    ----------  ---------  -----------  -------  -------  -----------    -----------
+    C2          Output     SB_LVCMOS    No       0        Simple Output  tx     
+

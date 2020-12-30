@@ -1,0 +1,12 @@
+@P:  Worst Slack : 12.243
+@P:  top|clk_inferred_clock - Estimated Frequency : 116.5 MHz
+@P:  top|clk_inferred_clock - Requested Frequency : 48.0 MHz
+@P:  top|clk_inferred_clock - Estimated Period : 8.587
+@P:  top|clk_inferred_clock - Requested Period : 20.830
+@P:  top|clk_inferred_clock - Slack : 12.243
+@P: top Part : ice40ul1kcm36a
+@P: top I/O primitives : 1
+@P: top I/O Register bits : 0
+@P: top Register bits (Non I/O) : 20 (1%)
+@P: top Total Luts : 13 (1%)
+@P:  CPU Time : 0h:00m:00s

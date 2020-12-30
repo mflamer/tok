@@ -1,0 +1,241 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Tue Dec 29 20:56:23 2020
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     top
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 41.666667 -name clk0 [get_nets clk]
+            1876 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 8.862ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         SB_DFFER   C              \tok/A_i1  (from clk +)
+   Destination:    SB_DFFER   D              \tok/A_i16  (to clk +)
+
+   Delay:                  32.671ns  (26.1% logic, 73.9% route), 21 logic levels.
+
+ Constraint Details:
+
+     32.671ns data_path \tok/A_i1 to \tok/A_i16 meets
+     41.666ns delay constraint less
+      0.133ns L_S requirement (totaling 41.533ns) by 8.862ns
+
+ Path Details: \tok/A_i1 to \tok/A_i16
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367              C to Q              \tok/A_i1 (from clk)
+Route        14   e 1.674                                  \tok/A_low[0]
+LUT4        ---     0.408             I0 to O              \tok/sub_105_inv_0_i1_1_lut
+Route         2   e 1.158                                  \tok/n17_adj_711
+LUT4        ---     0.408             I1 to CO             \tok/sub_105_add_2_2
+Route         2   e 1.158                                  \tok/n4769
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_3
+Route         2   e 1.158                                  \tok/n4770
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_4
+Route         2   e 1.158                                  \tok/n4771
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_5
+Route         2   e 1.158                                  \tok/n4772
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_6
+Route         2   e 1.158                                  \tok/n4773
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_7
+Route         2   e 1.158                                  \tok/n4774
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_8
+Route         2   e 1.158                                  \tok/n4775
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_9
+Route         2   e 1.158                                  \tok/n4776
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_10
+Route         2   e 1.158                                  \tok/n4777
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_11
+Route         2   e 1.158                                  \tok/n4778
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_12
+Route         2   e 1.158                                  \tok/n4779
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_13
+Route         2   e 1.158                                  \tok/n4780
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_14
+Route         2   e 1.158                                  \tok/n4781
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_15
+Route         2   e 1.158                                  \tok/n4782
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_16
+Route         1   e 1.020                                  \tok/n4783
+LUT4        ---     0.408             I3 to O              \tok/sub_105_add_2_17_lut
+Route         1   e 1.020                                  \tok/n6_adj_783
+LUT4        ---     0.408             I0 to O              \tok/i9_4_lut_adj_120
+Route         1   e 1.020                                  \tok/n20_adj_784
+LUT4        ---     0.408             I1 to O              \tok/i5572_4_lut
+Route         1   e 1.020                                  \tok/n5513
+LUT4        ---     0.408             I1 to O              \tok/A__15__I_0_i16_4_lut
+Route         1   e 1.020                                  \tok/A_[15]
+                  --------
+                   32.671  (26.1% logic, 73.9% route), 21 logic levels.
+
+
+Passed:  The following path meets requirements by 10.428ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         SB_DFFER   C              \tok/A_i1  (from clk +)
+   Destination:    SB_DFFER   D              \tok/A_i16  (to clk +)
+
+   Delay:                  31.105ns  (26.1% logic, 73.9% route), 20 logic levels.
+
+ Constraint Details:
+
+     31.105ns data_path \tok/A_i1 to \tok/A_i16 meets
+     41.666ns delay constraint less
+      0.133ns L_S requirement (totaling 41.533ns) by 10.428ns
+
+ Path Details: \tok/A_i1 to \tok/A_i16
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367              C to Q              \tok/A_i1 (from clk)
+Route        14   e 1.674                                  \tok/A_low[0]
+LUT4        ---     0.408             I0 to CO             \tok/add_104_2
+Route         2   e 1.158                                  \tok/n4784
+LUT4        ---     0.408             CI to CO             \tok/add_104_3
+Route         2   e 1.158                                  \tok/n4785
+LUT4        ---     0.408             CI to CO             \tok/add_104_4
+Route         2   e 1.158                                  \tok/n4786
+LUT4        ---     0.408             CI to CO             \tok/add_104_5
+Route         2   e 1.158                                  \tok/n4787
+LUT4        ---     0.408             CI to CO             \tok/add_104_6
+Route         2   e 1.158                                  \tok/n4788
+LUT4        ---     0.408             CI to CO             \tok/add_104_7
+Route         2   e 1.158                                  \tok/n4789
+LUT4        ---     0.408             CI to CO             \tok/add_104_8
+Route         2   e 1.158                                  \tok/n4790
+LUT4        ---     0.408             CI to CO             \tok/add_104_9
+Route         2   e 1.158                                  \tok/n4791
+LUT4        ---     0.408             CI to CO             \tok/add_104_10
+Route         2   e 1.158                                  \tok/n4792
+LUT4        ---     0.408             CI to CO             \tok/add_104_11
+Route         2   e 1.158                                  \tok/n4793
+LUT4        ---     0.408             CI to CO             \tok/add_104_12
+Route         2   e 1.158                                  \tok/n4794
+LUT4        ---     0.408             CI to CO             \tok/add_104_13
+Route         2   e 1.158                                  \tok/n4795
+LUT4        ---     0.408             CI to CO             \tok/add_104_14
+Route         2   e 1.158                                  \tok/n4796
+LUT4        ---     0.408             CI to CO             \tok/add_104_15
+Route         2   e 1.158                                  \tok/n4797
+LUT4        ---     0.408             CI to CO             \tok/add_104_16
+Route         1   e 1.020                                  \tok/n4798
+LUT4        ---     0.408             I3 to O              \tok/add_104_17_lut
+Route         1   e 1.020                                  \tok/n5_adj_713
+LUT4        ---     0.408             I1 to O              \tok/i5_3_lut_adj_118
+Route         1   e 1.020                                  \tok/n16_adj_782
+LUT4        ---     0.408             I2 to O              \tok/i5572_4_lut
+Route         1   e 1.020                                  \tok/n5513
+LUT4        ---     0.408             I1 to O              \tok/A__15__I_0_i16_4_lut
+Route         1   e 1.020                                  \tok/A_[15]
+                  --------
+                   31.105  (26.1% logic, 73.9% route), 20 logic levels.
+
+
+Passed:  The following path meets requirements by 10.428ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         SB_DFFER   C              \tok/A_i2  (from clk +)
+   Destination:    SB_DFFER   D              \tok/A_i16  (to clk +)
+
+   Delay:                  31.105ns  (26.1% logic, 73.9% route), 20 logic levels.
+
+ Constraint Details:
+
+     31.105ns data_path \tok/A_i2 to \tok/A_i16 meets
+     41.666ns delay constraint less
+      0.133ns L_S requirement (totaling 41.533ns) by 10.428ns
+
+ Path Details: \tok/A_i2 to \tok/A_i16
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367              C to Q              \tok/A_i2 (from clk)
+Route        14   e 1.674                                  \tok/A_low[1]
+LUT4        ---     0.408             I0 to O              \tok/inv_106_i2_1_lut
+Route         2   e 1.158                                  \tok/n301
+LUT4        ---     0.408             I1 to CO             \tok/sub_105_add_2_3
+Route         2   e 1.158                                  \tok/n4770
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_4
+Route         2   e 1.158                                  \tok/n4771
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_5
+Route         2   e 1.158                                  \tok/n4772
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_6
+Route         2   e 1.158                                  \tok/n4773
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_7
+Route         2   e 1.158                                  \tok/n4774
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_8
+Route         2   e 1.158                                  \tok/n4775
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_9
+Route         2   e 1.158                                  \tok/n4776
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_10
+Route         2   e 1.158                                  \tok/n4777
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_11
+Route         2   e 1.158                                  \tok/n4778
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_12
+Route         2   e 1.158                                  \tok/n4779
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_13
+Route         2   e 1.158                                  \tok/n4780
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_14
+Route         2   e 1.158                                  \tok/n4781
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_15
+Route         2   e 1.158                                  \tok/n4782
+LUT4        ---     0.408             CI to CO             \tok/sub_105_add_2_16
+Route         1   e 1.020                                  \tok/n4783
+LUT4        ---     0.408             I3 to O              \tok/sub_105_add_2_17_lut
+Route         1   e 1.020                                  \tok/n6_adj_783
+LUT4        ---     0.408             I0 to O              \tok/i9_4_lut_adj_120
+Route         1   e 1.020                                  \tok/n20_adj_784
+LUT4        ---     0.408             I1 to O              \tok/i5572_4_lut
+Route         1   e 1.020                                  \tok/n5513
+LUT4        ---     0.408             I1 to O              \tok/A__15__I_0_i16_4_lut
+Route         1   e 1.020                                  \tok/A_[15]
+                  --------
+                   31.105  (26.1% logic, 73.9% route), 20 logic levels.
+
+Report: 32.804 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 41.666667 -name    |             |             |
+clk0 [get_nets clk]                     |    41.666 ns|    32.804 ns|    21  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover  9334 paths, 1048 nets, and 2889 connections (84.3% coverage)
+
+
+Peak memory: 71970816 bytes, TRCE: 0 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 
