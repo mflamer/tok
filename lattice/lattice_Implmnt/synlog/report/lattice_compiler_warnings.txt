@@ -2,8 +2,4 @@
 @W: CG532 :"C:\cloud\dev\verilog\tok\ram.v":22:4:22:10|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
 @W: CG371 :"C:\cloud\dev\verilog\tok\ram.v":24:8:24:16|Cannot find data file blank256.hex for task $readmemh
 @W: CG532 :"C:\cloud\dev\verilog\tok\ram.v":22:4:22:10|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
-@W: CG360 :"C:\cloud\dev\verilog\tok\tok.v":30:7:30:16|Removing wire write_flag, as there is no assignment to it.
-@W: CG133 :"C:\cloud\dev\verilog\tok\tok.v":31:12:31:21|Object addr_write is declared but not assigned. Either assign a value or remove the declaration.
-@W: CL169 :"C:\cloud\dev\verilog\tok\tok.v":150:2:150:7|Pruning unused register search_clk. Make sure that there are no unused intermediate registers.
-@W: CL156 :"C:\cloud\dev\verilog\tok\tok.v":30:7:30:16|*Input write_flag to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
 

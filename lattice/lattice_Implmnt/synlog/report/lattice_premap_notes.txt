@@ -1,22 +1,4 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
-@N: BN115 :"c:\cloud\dev\verilog\tok\tok.v":193:6:193:10|Removing instance C_stk (in view: work.TOK(verilog)) of type view:work.STACK_8s_8s_63s(verilog) because it does not drive other instances.
-@N: BN115 :"c:\cloud\dev\verilog\tok\tok.v":170:4:170:6|Removing instance ram (in view: work.TOK(verilog)) of type view:work.RAM_init\.hex_8s_8s(verilog) because it does not drive other instances.
-@N: BN115 :"c:\cloud\dev\verilog\tok\tok.v":203:4:203:7|Removing instance keys (in view: work.TOK(verilog)) of type view:work.RAM_blank256\.hex_8s_16s_1(verilog) because it does not drive other instances.
-@N: BN115 :"c:\cloud\dev\verilog\tok\tok.v":216:4:216:7|Removing instance vals (in view: work.TOK(verilog)) of type view:work.RAM_blank256\.hex_8s_16s_0(verilog) because it does not drive other instances.
-@N: BN362 :"c:\cloud\dev\verilog\tok\tok.v":150:2:150:7|Removing sequential instance idx[7:0] (in view: work.TOK(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN115 :"c:\cloud\dev\verilog\tok\tok.v":183:6:183:10|Removing instance A_stk (in view: work.TOK(verilog)) of type view:work.STACK_8s_16s_127s(verilog) because it does not drive other instances.
-@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":50:0:50:5|Removing sequential instance valid (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":50:0:50:5|Removing sequential instance rx_data[7:0] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
 @N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":50:0:50:5|Removing sequential instance error (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
 @N: BN225 |Writing default property annotation file C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice.sap.
-@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[0] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[1] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[2] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[3] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[4] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[5] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[6] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[7] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[8] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[9] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.

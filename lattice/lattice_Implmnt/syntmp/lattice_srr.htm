@@ -1,20 +1,20 @@
 <html><body><samp><pre>
-<!@TC:1609031481>
+<!@TC:1609386993>
 #Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
 #install: C:\lscc\iCEcube2.2017.08\synpbase
 #OS: Windows 8 6.2
 #Hostname: DESKTOP-9KIQGMV
 
-# Sat Dec 26 17:11:21 2020
+# Wed Dec 30 19:56:33 2020
 
 #Implementation: lattice_Implmnt
 
 <a name=compilerReport1></a>Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
-@N: : <!@TM:1609031482> | Running in 64-bit mode 
+@N: : <!@TM:1609386994> | Running in 64-bit mode 
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
 <a name=compilerReport2></a>Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
-@N: : <!@TM:1609031482> | Running in 64-bit mode 
+@N: : <!@TM:1609386994> | Running in 64-bit mode 
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
 @I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v" (library work)
@@ -30,110 +30,106 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\cloud\dev\verilog\tok\lattice_top.v" (library work)
 Verilog syntax check successful!
 File C:\cloud\dev\verilog\tok\tok.v changed - recompiling
+File C:\cloud\dev\verilog\tok\uart.v changed - recompiling
 File C:\cloud\dev\verilog\tok\lattice_top.v changed - recompiling
 Selecting top level module top
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\cloud\dev\verilog\tok\ram.v:3:7:3:10:@N:CG364:@XP_MSG">ram.v(3)</a><!@TM:1609031482> | Synthesizing module RAM in library work.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\cloud\dev\verilog\tok\ram.v:3:7:3:10:@N:CG364:@XP_MSG">ram.v(3)</a><!@TM:1609386994> | Synthesizing module RAM in library work.
 
 	init_file=64'b0110100101101110011010010111010000101110011010000110010101111000
 	addr_width=32'b00000000000000000000000000001000
 	data_width=32'b00000000000000000000000000001000
    Generated name = RAM_init.hex_8s_8s
 
-<font color=#A52A2A>@W:<a href="@W:CG371:@XP_HELP">CG371</a> : <a href="C:\cloud\dev\verilog\tok\ram.v:24:8:24:17:@W:CG371:@XP_MSG">ram.v(24)</a><!@TM:1609031482> | Cannot find data file init.hex for task $readmemh</font>
-<font color=#A52A2A>@W:<a href="@W:CG532:@XP_HELP">CG532</a> : <a href="C:\cloud\dev\verilog\tok\ram.v:22:4:22:11:@W:CG532:@XP_MSG">ram.v(22)</a><!@TM:1609031482> | Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.</font>
-@N:<a href="@N:CL134:@XP_HELP">CL134</a> : <a href="C:\cloud\dev\verilog\tok\ram.v:12:4:12:10:@N:CL134:@XP_MSG">ram.v(12)</a><!@TM:1609031482> | Found RAM mem, depth=256, width=8
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\cloud\dev\verilog\tok\stack.v:3:7:3:12:@N:CG364:@XP_MSG">stack.v(3)</a><!@TM:1609031482> | Synthesizing module STACK in library work.
+<font color=#A52A2A>@W:<a href="@W:CG371:@XP_HELP">CG371</a> : <a href="C:\cloud\dev\verilog\tok\ram.v:24:8:24:17:@W:CG371:@XP_MSG">ram.v(24)</a><!@TM:1609386994> | Cannot find data file init.hex for task $readmemh</font>
+<font color=#A52A2A>@W:<a href="@W:CG532:@XP_HELP">CG532</a> : <a href="C:\cloud\dev\verilog\tok\ram.v:22:4:22:11:@W:CG532:@XP_MSG">ram.v(22)</a><!@TM:1609386994> | Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.</font>
+@N:<a href="@N:CL134:@XP_HELP">CL134</a> : <a href="C:\cloud\dev\verilog\tok\ram.v:12:4:12:10:@N:CL134:@XP_MSG">ram.v(12)</a><!@TM:1609386994> | Found RAM mem, depth=256, width=8
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\cloud\dev\verilog\tok\stack.v:3:7:3:12:@N:CG364:@XP_MSG">stack.v(3)</a><!@TM:1609386994> | Synthesizing module STACK in library work.
 
 	DEPTH=32'b00000000000000000000000000001000
 	WIDTH=32'b00000000000000000000000000010000
 	BITS=32'b00000000000000000000000001111111
    Generated name = STACK_8s_16s_127s
 
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\cloud\dev\verilog\tok\stack.v:3:7:3:12:@N:CG364:@XP_MSG">stack.v(3)</a><!@TM:1609031482> | Synthesizing module STACK in library work.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\cloud\dev\verilog\tok\stack.v:3:7:3:12:@N:CG364:@XP_MSG">stack.v(3)</a><!@TM:1609386994> | Synthesizing module STACK in library work.
 
 	DEPTH=32'b00000000000000000000000000001000
 	WIDTH=32'b00000000000000000000000000001000
 	BITS=32'b00000000000000000000000000111111
    Generated name = STACK_8s_8s_63s
 
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\cloud\dev\verilog\tok\ram.v:3:7:3:10:@N:CG364:@XP_MSG">ram.v(3)</a><!@TM:1609031482> | Synthesizing module RAM in library work.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\cloud\dev\verilog\tok\ram.v:3:7:3:10:@N:CG364:@XP_MSG">ram.v(3)</a><!@TM:1609386994> | Synthesizing module RAM in library work.
 
 	init_file=96'b011000100110110001100001011011100110101100110010001101010011011000101110011010000110010101111000
 	addr_width=32'b00000000000000000000000000001000
 	data_width=32'b00000000000000000000000000010000
    Generated name = RAM_blank256.hex_8s_16s
 
-<font color=#A52A2A>@W:<a href="@W:CG371:@XP_HELP">CG371</a> : <a href="C:\cloud\dev\verilog\tok\ram.v:24:8:24:17:@W:CG371:@XP_MSG">ram.v(24)</a><!@TM:1609031482> | Cannot find data file blank256.hex for task $readmemh</font>
-<font color=#A52A2A>@W:<a href="@W:CG532:@XP_HELP">CG532</a> : <a href="C:\cloud\dev\verilog\tok\ram.v:22:4:22:11:@W:CG532:@XP_MSG">ram.v(22)</a><!@TM:1609031482> | Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.</font>
-@N:<a href="@N:CL134:@XP_HELP">CL134</a> : <a href="C:\cloud\dev\verilog\tok\ram.v:12:4:12:10:@N:CL134:@XP_MSG">ram.v(12)</a><!@TM:1609031482> | Found RAM mem, depth=256, width=16
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\cloud\dev\verilog\tok\uart.v:3:7:3:11:@N:CG364:@XP_MSG">uart.v(3)</a><!@TM:1609031482> | Synthesizing module UART in library work.
+<font color=#A52A2A>@W:<a href="@W:CG371:@XP_HELP">CG371</a> : <a href="C:\cloud\dev\verilog\tok\ram.v:24:8:24:17:@W:CG371:@XP_MSG">ram.v(24)</a><!@TM:1609386994> | Cannot find data file blank256.hex for task $readmemh</font>
+<font color=#A52A2A>@W:<a href="@W:CG532:@XP_HELP">CG532</a> : <a href="C:\cloud\dev\verilog\tok\ram.v:22:4:22:11:@W:CG532:@XP_MSG">ram.v(22)</a><!@TM:1609386994> | Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.</font>
+@N:<a href="@N:CL134:@XP_HELP">CL134</a> : <a href="C:\cloud\dev\verilog\tok\ram.v:12:4:12:10:@N:CL134:@XP_MSG">ram.v(12)</a><!@TM:1609386994> | Found RAM mem, depth=256, width=16
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\cloud\dev\verilog\tok\uart.v:3:7:3:11:@N:CG364:@XP_MSG">uart.v(3)</a><!@TM:1609386994> | Synthesizing module UART in library work.
 
-@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="C:\cloud\dev\verilog\tok\uart.v:45:82:45:89:@N:CG179:@XP_MSG">uart.v(45)</a><!@TM:1609031482> | Removing redundant assignment.
-@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="C:\cloud\dev\verilog\tok\uart.v:52:44:52:49:@N:CG179:@XP_MSG">uart.v(52)</a><!@TM:1609031482> | Removing redundant assignment.
-@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="C:\cloud\dev\verilog\tok\uart.v:53:42:53:49:@N:CG179:@XP_MSG">uart.v(53)</a><!@TM:1609031482> | Removing redundant assignment.
-@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="C:\cloud\dev\verilog\tok\uart.v:54:46:54:51:@N:CG179:@XP_MSG">uart.v(54)</a><!@TM:1609031482> | Removing redundant assignment.
-@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="C:\cloud\dev\verilog\tok\uart.v:66:92:66:98:@N:CG179:@XP_MSG">uart.v(66)</a><!@TM:1609031482> | Removing redundant assignment.
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\cloud\dev\verilog\tok\tok.v:11:7:11:10:@N:CG364:@XP_MSG">tok.v(11)</a><!@TM:1609031482> | Synthesizing module TOK in library work.
+@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="C:\cloud\dev\verilog\tok\uart.v:45:82:45:89:@N:CG179:@XP_MSG">uart.v(45)</a><!@TM:1609386994> | Removing redundant assignment.
+@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="C:\cloud\dev\verilog\tok\uart.v:52:44:52:49:@N:CG179:@XP_MSG">uart.v(52)</a><!@TM:1609386994> | Removing redundant assignment.
+@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="C:\cloud\dev\verilog\tok\uart.v:53:42:53:49:@N:CG179:@XP_MSG">uart.v(53)</a><!@TM:1609386994> | Removing redundant assignment.
+@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="C:\cloud\dev\verilog\tok\uart.v:54:46:54:51:@N:CG179:@XP_MSG">uart.v(54)</a><!@TM:1609386994> | Removing redundant assignment.
+@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="C:\cloud\dev\verilog\tok\uart.v:66:92:66:98:@N:CG179:@XP_MSG">uart.v(66)</a><!@TM:1609386994> | Removing redundant assignment.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\cloud\dev\verilog\tok\tok.v:12:7:12:10:@N:CG364:@XP_MSG">tok.v(12)</a><!@TM:1609386994> | Synthesizing module TOK in library work.
 
-<font color=#A52A2A>@W:<a href="@W:CG360:@XP_HELP">CG360</a> : <a href="C:\cloud\dev\verilog\tok\tok.v:30:7:30:17:@W:CG360:@XP_MSG">tok.v(30)</a><!@TM:1609031482> | Removing wire write_flag, as there is no assignment to it.</font>
-<font color=#A52A2A>@W:<a href="@W:CG133:@XP_HELP">CG133</a> : <a href="C:\cloud\dev\verilog\tok\tok.v:31:12:31:22:@W:CG133:@XP_MSG">tok.v(31)</a><!@TM:1609031482> | Object addr_write is declared but not assigned. Either assign a value or remove the declaration.</font>
-<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="C:\cloud\dev\verilog\tok\tok.v:150:2:150:8:@W:CL169:@XP_MSG">tok.v(150)</a><!@TM:1609031482> | Pruning unused register search_clk. Make sure that there are no unused intermediate registers.</font>
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v:4020:7:4020:15:@N:CG364:@XP_MSG">sb_ice40.v(4020)</a><!@TM:1609031482> | Synthesizing module SB_HFOSC in library work.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v:4020:7:4020:15:@N:CG364:@XP_MSG">sb_ice40.v(4020)</a><!@TM:1609386994> | Synthesizing module SB_HFOSC in library work.
 
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\cloud\dev\verilog\tok\lattice_top.v:4:7:4:10:@N:CG364:@XP_MSG">lattice_top.v(4)</a><!@TM:1609031482> | Synthesizing module top in library work.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\cloud\dev\verilog\tok\lattice_top.v:4:7:4:10:@N:CG364:@XP_MSG">lattice_top.v(4)</a><!@TM:1609386994> | Synthesizing module top in library work.
 
-@A:<a href="@A:CL153:@XP_HELP">CL153</a> : <a href="C:\cloud\dev\verilog\tok\tok.v:31:12:31:22:@A:CL153:@XP_MSG">tok.v(31)</a><!@TM:1609031482> | *Unassigned bits of addr_write[7:0] are referenced and tied to 0 -- simulation mismatch possible.
-<font color=#A52A2A>@W:<a href="@W:CL156:@XP_HELP">CL156</a> : <a href="C:\cloud\dev\verilog\tok\tok.v:30:7:30:17:@W:CL156:@XP_MSG">tok.v(30)</a><!@TM:1609031482> | *Input write_flag to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.</font>
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\cloud\dev\verilog\tok\uart.v:5:10:5:16:@N:CL159:@XP_MSG">uart.v(5)</a><!@TM:1609031482> | Input resetq is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\cloud\dev\verilog\tok\uart.v:5:10:5:16:@N:CL159:@XP_MSG">uart.v(5)</a><!@TM:1609386994> | Input resetq is unused.
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 83MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 88MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Dec 26 17:11:22 2020
+# Wed Dec 30 19:56:34 2020
 
 ###########################################################]
 <a name=compilerReport3></a>Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
-@N: : <!@TM:1609031482> | Running in 64-bit mode 
-@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\cloud\dev\verilog\tok\lattice_top.v:4:7:4:10:@N:NF107:@XP_MSG">lattice_top.v(4)</a><!@TM:1609031482> | Selected library: work cell: top view verilog as top level
-@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\cloud\dev\verilog\tok\lattice_top.v:4:7:4:10:@N:NF107:@XP_MSG">lattice_top.v(4)</a><!@TM:1609031482> | Selected library: work cell: top view verilog as top level
+@N: : <!@TM:1609386994> | Running in 64-bit mode 
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\cloud\dev\verilog\tok\lattice_top.v:4:7:4:10:@N:NF107:@XP_MSG">lattice_top.v(4)</a><!@TM:1609386994> | Selected library: work cell: top view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\cloud\dev\verilog\tok\lattice_top.v:4:7:4:10:@N:NF107:@XP_MSG">lattice_top.v(4)</a><!@TM:1609386994> | Selected library: work cell: top view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Dec 26 17:11:22 2020
+# Wed Dec 30 19:56:34 2020
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Dec 26 17:11:22 2020
+# Wed Dec 30 19:56:34 2020
 
 ###########################################################]
 <a name=compilerReport4></a>Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
-@N: : <!@TM:1609031483> | Running in 64-bit mode 
+@N: : <!@TM:1609386996> | Running in 64-bit mode 
 File C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synwork\lattice_comp.srs changed - recompiling
-@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\cloud\dev\verilog\tok\lattice_top.v:4:7:4:10:@N:NF107:@XP_MSG">lattice_top.v(4)</a><!@TM:1609031483> | Selected library: work cell: top view verilog as top level
-@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\cloud\dev\verilog\tok\lattice_top.v:4:7:4:10:@N:NF107:@XP_MSG">lattice_top.v(4)</a><!@TM:1609031483> | Selected library: work cell: top view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\cloud\dev\verilog\tok\lattice_top.v:4:7:4:10:@N:NF107:@XP_MSG">lattice_top.v(4)</a><!@TM:1609386996> | Selected library: work cell: top view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\cloud\dev\verilog\tok\lattice_top.v:4:7:4:10:@N:NF107:@XP_MSG">lattice_top.v(4)</a><!@TM:1609386996> | Selected library: work cell: top view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Dec 26 17:11:23 2020
+# Wed Dec 30 19:56:35 2020
 
 ###########################################################]
 Pre-mapping Report
 
-# Sat Dec 26 17:11:23 2020
+# Wed Dec 30 19:56:36 2020
 
 <a name=mapperReport5></a>Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39</a>
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -141,11 +137,11 @@ Product Version L-2016.09L+ice40
 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
 
-@A:<a href="@A:MF827:@XP_HELP">MF827</a> : <!@TM:1609031484> | No constraint file specified. 
+@A:<a href="@A:MF827:@XP_HELP">MF827</a> : <!@TM:1609386996> | No constraint file specified. 
 Linked File: <a href="C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice_scck.rpt:@XP_FILE">lattice_scck.rpt</a>
 Printing clock  summary report in "C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice_scck.rpt" file 
-@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1609031484> | Running in 64-bit mode. 
-@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1609031484> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1609386996> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1609386996> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
 
 Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
 
@@ -158,24 +154,13 @@ Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
 
-<font color=#A52A2A>@W:<a href="@W:MO156:@XP_HELP">MO156</a> : <a href="c:\cloud\dev\verilog\tok\ram.v:12:4:12:10:@W:MO156:@XP_MSG">ram.v(12)</a><!@TM:1609031484> | RAM mem[7:0] removed due to constant propagation. </font>
-<font color=#A52A2A>@W:<a href="@W:MO156:@XP_HELP">MO156</a> : <a href="c:\cloud\dev\verilog\tok\ram.v:12:4:12:10:@W:MO156:@XP_MSG">ram.v(12)</a><!@TM:1609031484> | RAM mem[15:0] removed due to constant propagation. </font>
-<font color=#A52A2A>@W:<a href="@W:MO156:@XP_HELP">MO156</a> : <a href="c:\cloud\dev\verilog\tok\ram.v:12:4:12:10:@W:MO156:@XP_MSG">ram.v(12)</a><!@TM:1609031484> | RAM mem[15:0] removed due to constant propagation. </font>
-@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="c:\cloud\dev\verilog\tok\tok.v:193:6:193:11:@N:BN115:@XP_MSG">tok.v(193)</a><!@TM:1609031484> | Removing instance C_stk (in view: work.TOK(verilog)) of type view:work.STACK_8s_8s_63s(verilog) because it does not drive other instances.
-@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="c:\cloud\dev\verilog\tok\tok.v:170:4:170:7:@N:BN115:@XP_MSG">tok.v(170)</a><!@TM:1609031484> | Removing instance ram (in view: work.TOK(verilog)) of type view:work.RAM_init\.hex_8s_8s(verilog) because it does not drive other instances.
-@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="c:\cloud\dev\verilog\tok\tok.v:203:4:203:8:@N:BN115:@XP_MSG">tok.v(203)</a><!@TM:1609031484> | Removing instance keys (in view: work.TOK(verilog)) of type view:work.RAM_blank256\.hex_8s_16s_1(verilog) because it does not drive other instances.
-@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="c:\cloud\dev\verilog\tok\tok.v:216:4:216:8:@N:BN115:@XP_MSG">tok.v(216)</a><!@TM:1609031484> | Removing instance vals (in view: work.TOK(verilog)) of type view:work.RAM_blank256\.hex_8s_16s_0(verilog) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\tok.v:150:2:150:8:@N:BN362:@XP_MSG">tok.v(150)</a><!@TM:1609031484> | Removing sequential instance idx[7:0] (in view: work.TOK(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="c:\cloud\dev\verilog\tok\tok.v:183:6:183:11:@N:BN115:@XP_MSG">tok.v(183)</a><!@TM:1609031484> | Removing instance A_stk (in view: work.TOK(verilog)) of type view:work.STACK_8s_16s_127s(verilog) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:50:0:50:6:@N:BN362:@XP_MSG">uart.v(50)</a><!@TM:1609031484> | Removing sequential instance valid (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:50:0:50:6:@N:BN362:@XP_MSG">uart.v(50)</a><!@TM:1609031484> | Removing sequential instance rx_data[7:0] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:50:0:50:6:@N:BN362:@XP_MSG">uart.v(50)</a><!@TM:1609031484> | Removing sequential instance error (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:50:0:50:6:@N:BN362:@XP_MSG">uart.v(50)</a><!@TM:1609386996> | Removing sequential instance error (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
 ICG Latch Removal Summary:
 Number of ICG latches removed:	0
 Number of ICG latches not removed:	0
 syn_allowed_resources : blockrams=16  set on top level netlist top
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
 
 
 
@@ -185,42 +170,32 @@ Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Start                      Requested     Requested     Clock        Clock                     Clock
 Clock                      Frequency     Period        Type         Group                     Load 
 ---------------------------------------------------------------------------------------------------
-top|clk_inferred_clock     48.0 MHz      20.830        inferred     Autoconstr_clkgroup_0     76   
+top|clk_inferred_clock     24.0 MHz      41.660        inferred     Autoconstr_clkgroup_0     389  
 ===================================================================================================
 
-<font color=#A52A2A>@W:<a href="@W:MT529:@XP_HELP">MT529</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:63:0:63:6:@W:MT529:@XP_MSG">uart.v(63)</a><!@TM:1609031484> | Found inferred clock top|clk_inferred_clock which controls 76 sequential elements including tok.uart.sentbits[3:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </font>
+<font color=#A52A2A>@W:<a href="@W:MT529:@XP_HELP">MT529</a> : <a href="c:\cloud\dev\verilog\tok\ram.v:17:4:17:10:@W:MT529:@XP_MSG">ram.v(17)</a><!@TM:1609386996> | Found inferred clock top|clk_inferred_clock which controls 389 sequential elements including tok.ram.dout[7:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </font>
 
 Finished Pre Mapping Phase.
-@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1609031484> | Writing default property annotation file C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice.sap. 
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1609386996> | Writing default property annotation file C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice.sap. 
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
 
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:45:19:45:25:@N:BN362:@XP_MSG">uart.v(45)</a><!@TM:1609031484> | Removing sequential instance capture[0] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:45:19:45:25:@N:BN362:@XP_MSG">uart.v(45)</a><!@TM:1609031484> | Removing sequential instance capture[1] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:45:19:45:25:@N:BN362:@XP_MSG">uart.v(45)</a><!@TM:1609031484> | Removing sequential instance capture[2] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:45:19:45:25:@N:BN362:@XP_MSG">uart.v(45)</a><!@TM:1609031484> | Removing sequential instance capture[3] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:45:19:45:25:@N:BN362:@XP_MSG">uart.v(45)</a><!@TM:1609031484> | Removing sequential instance capture[4] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:45:19:45:25:@N:BN362:@XP_MSG">uart.v(45)</a><!@TM:1609031484> | Removing sequential instance capture[5] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:45:19:45:25:@N:BN362:@XP_MSG">uart.v(45)</a><!@TM:1609031484> | Removing sequential instance capture[6] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:45:19:45:25:@N:BN362:@XP_MSG">uart.v(45)</a><!@TM:1609031484> | Removing sequential instance capture[7] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:45:19:45:25:@N:BN362:@XP_MSG">uart.v(45)</a><!@TM:1609031484> | Removing sequential instance capture[8] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:45:19:45:25:@N:BN362:@XP_MSG">uart.v(45)</a><!@TM:1609031484> | Removing sequential instance capture[9] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
 None
 None
 
-Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 134MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 134MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sat Dec 26 17:11:24 2020
+# Wed Dec 30 19:56:36 2020
 
 ###########################################################]
 Map & Optimize Report
 
-# Sat Dec 26 17:11:24 2020
+# Wed Dec 30 19:56:36 2020
 
 <a name=mapperReport7></a>Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39</a>
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -228,8 +203,8 @@ Product Version L-2016.09L+ice40
 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
 
-@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1609031485> | Running in 64-bit mode. 
-@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1609031485> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1609387000> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1609387000> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
 
 Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
 
@@ -244,59 +219,59 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
-@N:<a href="@N:MT206:@XP_HELP">MT206</a> : <!@TM:1609031485> | Auto Constrain mode is enabled 
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:63:0:63:6:@N:BN362:@XP_MSG">uart.v(63)</a><!@TM:1609031485> | Removing sequential instance sentbits[3:0] (in view: work.UART(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:38:0:38:6:@N:BN362:@XP_MSG">uart.v(38)</a><!@TM:1609031485> | Removing sequential instance bytephase[5:0] (in view: work.UART(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:31:0:31:6:@N:BN362:@XP_MSG">uart.v(31)</a><!@TM:1609031485> | Removing sequential instance rxclkcounter[7:0] (in view: work.UART(verilog)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:45:19:45:25:@N:BN362:@XP_MSG">uart.v(45)</a><!@TM:1609031485> | Removing sequential instance capture[9:0] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="c:\cloud\dev\verilog\tok\uart.v:45:19:45:25:@A:BN291:@XP_MSG">uart.v(45)</a><!@TM:1609031485> | Boundary register capture[9:0] (in view: work.UART(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\tok.v:150:2:150:8:@N:BN362:@XP_MSG">tok.v(150)</a><!@TM:1609031485> | Removing sequential instance A[15:0] (in view: work.TOK(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\tok.v:150:2:150:8:@N:BN362:@XP_MSG">tok.v(150)</a><!@TM:1609031485> | Removing sequential instance depth[3:0] (in view: work.TOK(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\cloud\dev\verilog\tok\tok.v:150:2:150:8:@N:BN362:@XP_MSG">tok.v(150)</a><!@TM:1609031485> | Removing sequential instance tc[7:0] (in view: work.TOK(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N:<a href="@N:MT206:@XP_HELP">MT206</a> : <!@TM:1609387000> | Auto Constrain mode is enabled 
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
 
+<font color=#A52A2A>@W:<a href="@W:FX107:@XP_HELP">FX107</a> : <!@TM:1609387000> | RAM vals.mem[31:0] (in view: work.TOK(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.</font> 
+<font color=#A52A2A>@W:<a href="@W:FX107:@XP_HELP">FX107</a> : <a href="c:\cloud\dev\verilog\tok\ram.v:12:4:12:10:@W:FX107:@XP_MSG">ram.v(12)</a><!@TM:1609387000> | RAM ram.mem[7:0] (in view: work.TOK(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.</font>
+@N:<a href="@N:MO231:@XP_HELP">MO231</a> : <a href="c:\cloud\dev\verilog\tok\tok.v:151:2:151:8:@N:MO231:@XP_MSG">tok.v(151)</a><!@TM:1609387000> | Found counter in view:work.TOK(verilog) instance idx[7:0] 
+@N:<a href="@N:MF179:@XP_HELP">MF179</a> : <a href="c:\cloud\dev\verilog\tok\tok.v:81:46:81:58:@N:MF179:@XP_MSG">tok.v(81)</a><!@TM:1609387000> | Found 16 by 16 bit equality operator ('==') un1_key_rd_17 (in view: work.TOK(verilog))
+@N:<a href="@N:MF179:@XP_HELP">MF179</a> : <a href="c:\cloud\dev\verilog\tok\tok.v:116:19:116:27:@N:MF179:@XP_MSG">tok.v(116)</a><!@TM:1609387000> | Found 16 by 16 bit equality operator ('==') un35_A_ (in view: work.TOK(verilog))
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 136MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 150MB)
 
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 150MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 150MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 150MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 150MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 150MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 150MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 159MB peak: 162MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:00s		    16.36ns		  16 /        20
+   1		0h:00m:02s		    23.58ns		 694 /       309
+@N:<a href="@N:FX1017:@XP_HELP">FX1017</a> : <!@TM:1609387000> | SB_GB inserted on the net tok.A_stk.head3_0_i. 
+@N:<a href="@N:FX1017:@XP_HELP">FX1017</a> : <!@TM:1609387000> | SB_GB inserted on the net tok.C_stk.head8_0_i. 
+@N:<a href="@N:FX1017:@XP_HELP">FX1017</a> : <!@TM:1609387000> | SB_GB inserted on the net reset_c_i. 
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 159MB peak: 162MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 159MB peak: 162MB)
 
 
 
@@ -306,52 +281,52 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:
 <a name=clockReport8></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
 
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 20 clock pin(s) of sequential element(s)
-0 instances converted, 20 sequential instances remain driven by gated/generated clocks
+1 gated/generated clock tree(s) driving 315 clock pin(s) of sequential element(s)
+0 instances converted, 315 sequential instances remain driven by gated/generated clocks
 
-===================================================================================================== Gated/Generated Clocks ======================================================================================================
-Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance              Explanation                                                                                                                   
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<a href="@|S:OSCInst0@|E:tok.uart.txclkcounter[9]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001  @XP_NAMES_BY_PROP">ClockId0001 </a>       OSCInst0            SB_HFOSC               20         tok.uart.txclkcounter[9]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
-===================================================================================================================================================================================================================================
+================================================================================================= Gated/Generated Clocks =================================================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<a href="@|S:OSCInst0@|E:tok.idx[7]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001  @XP_NAMES_BY_PROP">ClockId0001 </a>       OSCInst0            SB_HFOSC               315        tok.idx[7]          Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+==========================================================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 133MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 133MB peak: 162MB)
 
 Writing Analyst data base C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synwork\lattice_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 158MB peak: 162MB)
 
 Writing EDIF Netlist and constraint files
-@N:<a href="@N:BW103:@XP_HELP">BW103</a> : <!@TM:1609031485> | The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns. 
-@N:<a href="@N:BW107:@XP_HELP">BW107</a> : <!@TM:1609031485> | Synopsys Constraint File capacitance units using default value of 1pF  
-@N:<a href="@N:FX1056:@XP_HELP">FX1056</a> : <!@TM:1609031485> | Writing EDF file: C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice.edf 
+@N:<a href="@N:BW103:@XP_HELP">BW103</a> : <!@TM:1609387000> | The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns. 
+@N:<a href="@N:BW107:@XP_HELP">BW107</a> : <!@TM:1609387000> | Synopsys Constraint File capacitance units using default value of 1pF  
+@N:<a href="@N:FX1056:@XP_HELP">FX1056</a> : <!@TM:1609387000> | Writing EDF file: C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice.edf 
 L-2016.09L+ice40
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 159MB peak: 162MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 158MB peak: 162MB)
 
-<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1609031485> | Found inferred clock top|clk_inferred_clock with period 20.83ns. Please declare a user-defined clock on object "n:clk"</font> 
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1609387000> | Found inferred clock top|clk_inferred_clock with period 41.66ns. Please declare a user-defined clock on object "n:clk"</font> 
 
 
 <a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
-# Timing Report written on Sat Dec 26 17:11:25 2020
+# Timing Report written on Wed Dec 30 19:56:40 2020
 #
 
 
 Top view:               top
-Requested Frequency:    48.0 MHz
+Requested Frequency:    24.0 MHz
 Wire load mode:         top
 Paths requested:        5
 Constraint File(s):    
-@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1609031485> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1609387000> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
 
-@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1609031485> | Clock constraints include only register-to-register paths associated with each individual clock. 
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1609387000> | Clock constraints include only register-to-register paths associated with each individual clock. 
 
 
 
@@ -359,12 +334,12 @@ Constraint File(s):
 *******************
 
 
-Worst slack in design: 12.243
+Worst slack in design: 10.135
 
                            Requested     Estimated     Requested     Estimated                Clock        Clock                
 Starting Clock             Frequency     Frequency     Period        Period        Slack      Type         Group                
 --------------------------------------------------------------------------------------------------------------------------------
-top|clk_inferred_clock     48.0 MHz      116.5 MHz     20.830        8.587         12.243     inferred     Autoconstr_clkgroup_0
+top|clk_inferred_clock     24.0 MHz      31.7 MHz      41.660        31.525        10.135     inferred     Autoconstr_clkgroup_0
 ================================================================================================================================
 
 
@@ -378,7 +353,7 @@ Clocks                                          |    rise  to  rise    |    fall
 ---------------------------------------------------------------------------------------------------------------------------------------
 Starting                Ending                  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
 ---------------------------------------------------------------------------------------------------------------------------------------
-top|clk_inferred_clock  top|clk_inferred_clock  |  20.830      12.243  |  No paths    -      |  No paths    -      |  No paths    -    
+top|clk_inferred_clock  top|clk_inferred_clock  |  41.660      10.135  |  No paths    -      |  No paths    -      |  No paths    -    
 =======================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -401,82 +376,121 @@ No IO constraint found
 <a name=startingSlack14></a>Starting Points with Worst Slack</a>
 ********************************
 
-                             Starting                                                          Arrival           
-Instance                     Reference                  Type       Pin     Net                 Time        Slack 
-                             Clock                                                                               
------------------------------------------------------------------------------------------------------------------
-tok.uart.txclkcounter[2]     top|clk_inferred_clock     SB_DFF     Q       txclkcounter[2]     0.796       12.243
-tok.uart.txclkcounter[5]     top|clk_inferred_clock     SB_DFF     Q       txclkcounter[5]     0.796       12.294
-tok.uart.txclkcounter[1]     top|clk_inferred_clock     SB_DFF     Q       txclkcounter[1]     0.796       12.336
-tok.uart.txclkcounter[7]     top|clk_inferred_clock     SB_DFF     Q       txclkcounter[7]     0.796       12.336
-tok.uart.txclkcounter[4]     top|clk_inferred_clock     SB_DFF     Q       txclkcounter[4]     0.796       12.387
-tok.uart.txclkcounter[6]     top|clk_inferred_clock     SB_DFF     Q       txclkcounter[6]     0.796       12.429
-tok.uart.txclkcounter[9]     top|clk_inferred_clock     SB_DFF     Q       txclkcounter[9]     0.796       12.429
-tok.uart.txclkcounter[8]     top|clk_inferred_clock     SB_DFF     Q       txclkcounter[8]     0.796       12.522
-tok.uart.txclkcounter[0]     top|clk_inferred_clock     SB_DFF     Q       txclkcounter[0]     0.796       14.172
-tok.uart.txclkcounter[3]     top|clk_inferred_clock     SB_DFF     Q       txclkcounter[3]     0.796       14.182
-=================================================================================================================
+                        Starting                                                              Arrival           
+Instance                Reference                  Type             Pin          Net          Time        Slack 
+                        Clock                                                                                   
+----------------------------------------------------------------------------------------------------------------
+tok.ram.mem_mem_0_0     top|clk_inferred_clock     SB_RAM256x16     RDATA[0]     T[0]         0.920       10.135
+tok.ram.mem_mem_0_0     top|clk_inferred_clock     SB_RAM256x16     RDATA[6]     T[6]         0.920       10.207
+tok.ram.mem_mem_0_0     top|clk_inferred_clock     SB_RAM256x16     RDATA[1]     T[1]         0.920       12.240
+tok.ram.mem_mem_0_0     top|clk_inferred_clock     SB_RAM256x16     RDATA[4]     T[4]         0.920       12.240
+tok.ram.mem_mem_0_0     top|clk_inferred_clock     SB_RAM256x16     RDATA[2]     T[2]         0.920       12.271
+tok.ram.mem_mem_0_0     top|clk_inferred_clock     SB_RAM256x16     RDATA[3]     T[3]         0.920       12.271
+tok.ram.mem_mem_0_0     top|clk_inferred_clock     SB_RAM256x16     RDATA[7]     T[7]         0.920       12.312
+tok.ram.mem_mem_0_0     top|clk_inferred_clock     SB_RAM256x16     RDATA[5]     T[5]         0.920       12.343
+tok.stall               top|clk_inferred_clock     SB_DFFR          Q            stall        0.796       12.993
+tok.depth[0]            top|clk_inferred_clock     SB_DFFR          Q            depth[0]     0.796       13.117
+================================================================================================================
 
 
 <a name=endingSlack15></a>Ending Points with Worst Slack</a>
 ******************************
 
-                             Starting                                                               Required           
-Instance                     Reference                  Type        Pin     Net                     Time         Slack 
-                             Clock                                                                                     
------------------------------------------------------------------------------------------------------------------------
-tok.uart.txclkcounter[5]     top|clk_inferred_clock     SB_DFF      D       txclkcounter_RNO[5]     20.675       12.243
-tok.uart.txclkcounter[7]     top|clk_inferred_clock     SB_DFF      D       txclkcounter_RNO[7]     20.675       12.243
-tok.uart.txclkcounter[8]     top|clk_inferred_clock     SB_DFF      D       txclkcounter_RNO[8]     20.675       12.243
-tok.uart.sender[0]           top|clk_inferred_clock     SB_DFFE     E       txtick                  20.830       14.337
-tok.uart.sender[1]           top|clk_inferred_clock     SB_DFFE     E       txtick                  20.830       14.337
-tok.uart.sender[2]           top|clk_inferred_clock     SB_DFFE     E       txtick                  20.830       14.337
-tok.uart.sender[3]           top|clk_inferred_clock     SB_DFFE     E       txtick                  20.830       14.337
-tok.uart.sender[4]           top|clk_inferred_clock     SB_DFFE     E       txtick                  20.830       14.337
-tok.uart.sender[5]           top|clk_inferred_clock     SB_DFFE     E       txtick                  20.830       14.337
-tok.uart.sender[6]           top|clk_inferred_clock     SB_DFFE     E       txtick                  20.830       14.337
-=======================================================================================================================
+              Starting                                                    Required           
+Instance      Reference                  Type        Pin     Net          Time         Slack 
+              Clock                                                                          
+---------------------------------------------------------------------------------------------
+tok.A[8]      top|clk_inferred_clock     SB_DFFR     D       A__2[8]      41.505       10.135
+tok.A[4]      top|clk_inferred_clock     SB_DFFR     D       A__2[4]      41.505       10.269
+tok.A[5]      top|clk_inferred_clock     SB_DFFR     D       A__2[5]      41.505       10.352
+tok.A[7]      top|clk_inferred_clock     SB_DFFR     D       A__2[7]      41.505       10.658
+tok.A[6]      top|clk_inferred_clock     SB_DFFR     D       A__2[6]      41.505       10.858
+tok.A[15]     top|clk_inferred_clock     SB_DFFR     D       A__2[15]     41.505       10.999
+tok.A[14]     top|clk_inferred_clock     SB_DFFR     D       A__2[14]     41.505       11.200
+tok.A[13]     top|clk_inferred_clock     SB_DFFR     D       A__2[13]     41.505       11.400
+tok.A[12]     top|clk_inferred_clock     SB_DFFR     D       A__2[12]     41.505       11.600
+tok.A[11]     top|clk_inferred_clock     SB_DFFR     D       A__2[11]     41.505       11.800
+=============================================================================================
 
 
 
 <a name=worstPaths16></a>Worst Path Information</a>
-<a href="C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice.srr:srsfC:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice.srs:fp:30840:32052:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+<a href="C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice.srr:srsfC:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice.srs:fp:25348:30856:@XP_NAMES_GATE">View Worst Path in Analyst</a>
 ***********************
 
 
 Path information for path number 1: 
-      Requested Period:                      20.830
+      Requested Period:                      41.660
     - Setup time:                            0.155
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         20.675
+    = Required time:                         41.505
 
-    - Propagation time:                      8.432
+    - Propagation time:                      31.370
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     12.243
+    = Slack (critical) :                     10.135
 
-    Number of logic level(s):                3
-    Starting point:                          tok.uart.txclkcounter[2] / Q
-    Ending point:                            tok.uart.txclkcounter[5] / D
-    The start point is clocked by            top|clk_inferred_clock [rising] on pin C
+    Number of logic level(s):                16
+    Starting point:                          tok.ram.mem_mem_0_0 / RDATA[0]
+    Ending point:                            tok.A[8] / D
+    The start point is clocked by            top|clk_inferred_clock [rising] on pin RCLK
     The end   point is clocked by            top|clk_inferred_clock [rising] on pin C
 
-Instance / Net                                    Pin      Pin               Arrival     No. of    
-Name                                  Type        Name     Dir     Delay     Time        Fan Out(s)
----------------------------------------------------------------------------------------------------
-tok.uart.txclkcounter[2]              SB_DFF      Q        Out     0.796     0.796       -         
-txclkcounter[2]                       Net         -        -       1.599     -           3         
-tok.uart.txclkcounter_RNI7URR[9]      SB_LUT4     I0       In      -         2.395       -         
-tok.uart.txclkcounter_RNI7URR[9]      SB_LUT4     O        Out     0.661     3.056       -         
-txtick_5                              Net         -        -       1.371     -           1         
-tok.uart.txclkcounter_RNILEL52[3]     SB_LUT4     I2       In      -         4.427       -         
-tok.uart.txclkcounter_RNILEL52[3]     SB_LUT4     O        Out     0.558     4.986       -         
-txtick                                Net         -        -       1.371     -           13        
-tok.uart.txclkcounter_RNO[5]          SB_LUT4     I0       In      -         6.356       -         
-tok.uart.txclkcounter_RNO[5]          SB_LUT4     O        Out     0.569     6.925       -         
-txclkcounter_RNO[5]                   Net         -        -       1.507     -           1         
-tok.uart.txclkcounter[5]              SB_DFF      D        In      -         8.432       -         
-===================================================================================================
-Total path delay (propagation time + setup) of 8.587 is 2.739(31.9%) logic and 5.848(68.1%) route.
+Instance / Net                                       Pin          Pin               Arrival     No. of    
+Name                                Type             Name         Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+tok.ram.mem_mem_0_0                 SB_RAM256x16     RDATA[0]     Out     0.920     0.920       -         
+T[0]                                Net              -            -       2.259     -           19        
+tok.uart.A_58_2                     SB_LUT4          I0           In      -         3.179       -         
+tok.uart.A_58_2                     SB_LUT4          O            Out     0.661     3.840       -         
+A_58_2                              Net              -            -       1.371     -           4         
+tok.uart.A_58_5                     SB_LUT4          I0           In      -         5.211       -         
+tok.uart.A_58_5                     SB_LUT4          O            Out     0.661     5.873       -         
+A_58_5                              Net              -            -       1.371     -           9         
+tok.uart.depth_9                    SB_LUT4          I0           In      -         7.244       -         
+tok.uart.depth_9                    SB_LUT4          O            Out     0.661     7.905       -         
+depth_9                             Net              -            -       1.371     -           7         
+tok.un1_depth_3_cry_0_c_RNO         SB_LUT4          I2           In      -         9.276       -         
+tok.un1_depth_3_cry_0_c_RNO         SB_LUT4          O            Out     0.558     9.835       -         
+un1_depth_3_cry_0_c_RNO             Net              -            -       0.905     -           1         
+tok.un1_depth_3_cry_0_c             SB_CARRY         I0           In      -         10.740      -         
+tok.un1_depth_3_cry_0_c             SB_CARRY         CO           Out     0.380     11.119      -         
+un1_depth_3_cry_0                   Net              -            -       0.014     -           2         
+tok.un1_depth_3_cry_1_c             SB_CARRY         CI           In      -         11.133      -         
+tok.un1_depth_3_cry_1_c             SB_CARRY         CO           Out     0.186     11.319      -         
+un1_depth_3_cry_1                   Net              -            -       0.386     -           2         
+tok.un1_depth_3_cry_1_c_RNIU2TV     SB_LUT4          I3           In      -         11.705      -         
+tok.un1_depth_3_cry_1_c_RNIU2TV     SB_LUT4          O            Out     0.465     12.170      -         
+un1_depth_3_cry_1_c_RNIU2TV         Net              -            -       1.371     -           2         
+tok.uart.un1_stall_6_1              SB_LUT4          I1           In      -         13.541      -         
+tok.uart.un1_stall_6_1              SB_LUT4          O            Out     0.558     14.099      -         
+un1_stall_6_1                       Net              -            -       1.371     -           1         
+tok.uart.un1_stall_6                SB_LUT4          I1           In      -         15.470      -         
+tok.uart.un1_stall_6                SB_LUT4          O            Out     0.558     16.028      -         
+un1_stall_6_0                       Net              -            -       1.371     -           5         
+tok.uart.un1_A_70_1                 SB_LUT4          I2           In      -         17.399      -         
+tok.uart.un1_A_70_1                 SB_LUT4          O            Out     0.517     17.916      -         
+A_72                                Net              -            -       1.371     -           8         
+tok.uart.A__2_sn_m2                 SB_LUT4          I2           In      -         19.287      -         
+tok.uart.A__2_sn_m2                 SB_LUT4          O            Out     0.517     19.804      -         
+A__2_sn_N_4_mux                     Net              -            -       1.371     -           21        
+tok.uart.A__2_sn_N_4_mux_i          SB_LUT4          I0           In      -         21.175      -         
+tok.uart.A__2_sn_N_4_mux_i          SB_LUT4          O            Out     0.661     21.836      -         
+A__2_sn_N_4_mux_i                   Net              -            -       1.371     -           16        
+tok.A_stk.head_RNI5CN37[8]          SB_LUT4          I0           In      -         23.207      -         
+tok.A_stk.head_RNI5CN37[8]          SB_LUT4          O            Out     0.661     23.869      -         
+head_RNI5CN37[8]                    Net              -            -       1.371     -           2         
+tok.un1_S_1_cry_7_c_RNIPV9SQ        SB_LUT4          I2           In      -         25.240      -         
+tok.un1_S_1_cry_7_c_RNIPV9SQ        SB_LUT4          O            Out     0.558     25.798      -         
+un1_S_1_cry_7_c_RNIPV9SQ            Net              -            -       1.371     -           1         
+tok.uart.A__2_am[8]                 SB_LUT4          I0           In      -         27.169      -         
+tok.uart.A__2_am[8]                 SB_LUT4          O            Out     0.661     27.831      -         
+A__2_am[8]                          Net              -            -       1.371     -           1         
+tok.uart.A__2_ns[8]                 SB_LUT4          I0           In      -         29.201      -         
+tok.uart.A__2_ns[8]                 SB_LUT4          O            Out     0.661     29.863      -         
+A__2[8]                             Net              -            -       1.507     -           1         
+tok.A[8]                            SB_DFFR          D            In      -         31.370      -         
+==========================================================================================================
+Total path delay (propagation time + setup) of 31.525 is 10.002(31.7%) logic and 21.523(68.3%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -486,45 +500,55 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 158MB peak: 162MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 158MB peak: 162MB)
 
 ---------------------------------------
 <a name=resourceUsage17></a>Resource Usage Report for top </a>
 
 Mapping to part: ice40ul1kcm36a
 Cell usage:
-GND             2 uses
-SB_CARRY        8 uses
-SB_DFF          10 uses
-SB_DFFE         10 uses
+GND             6 uses
+SB_CARRY        75 uses
+SB_DFF          26 uses
+SB_DFFE         244 uses
+SB_DFFER        8 uses
+SB_DFFR         22 uses
+SB_DFFS         8 uses
+SB_DFFSS        1 use
+SB_GB           3 uses
 SB_HFOSC        1 use
-VCC             2 uses
-SB_LUT4         13 uses
+SB_RAM256x16    3 uses
+VCC             6 uses
+SB_LUT4         662 uses
 
 I/O ports: 3
-I/O primitives: 1
-SB_IO          1 use
+I/O primitives: 3
+SB_IO          3 uses
 
 I/O Register bits:                  0
-Register bits not including I/Os:   20 (1%)
+Register bits not including I/Os:   309 (27%)
+
+RAM/ROM usage summary
+Block Rams : 3 of 16 (18%)
+
 Total load per clock:
-   top|clk_inferred_clock: 20
+   top|clk_inferred_clock: 315
 
 @S |Mapping Summary:
-Total  LUTs: 13 (1%)
+Total  LUTs: 662 (59%)
 
 Distribution of All Consumed LUTs = LUT4 
-Distribution of All Consumed Luts 13 = 13 
+Distribution of All Consumed Luts 662 = 662 
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 27MB peak: 133MB)
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 29MB peak: 162MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sat Dec 26 17:11:25 2020
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Wed Dec 30 19:56:40 2020
 
 ###########################################################]
 

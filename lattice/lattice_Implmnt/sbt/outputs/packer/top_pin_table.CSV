@@ -6,7 +6,7 @@
 
 * Build Date:         Sep 11 2017 16:52:36
 
-* File Generated:     Dec 29 2020 20:58:12
+* File Generated:     Dec 31 2020 10:49:28
 
 * Purpose:            Detailed IO and package pin info
 
@@ -21,7 +21,7 @@ Pin Number, Pin Type Name, Signal Name, Direction, Global Buffer, IO Standard, P
 ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, 
 A1, PIO_RGB, not used, , , , , , , topBank
 A2, PIO_RGB, not used, , , , , , , topBank
-A3, PIO, rx, Input, , SB_LVCMOS, No Pull Up, , Simple Input, topBank
+A3, PIO, tx, Output, , SB_LVCMOS, No Pull Up, , Simple Output, topBank
 A4, PIO, not used, , , , , , , topBank
 A5, PIO_BARCODE, not used, , , , , , , topBank
 A6, PIO_LED, not used, , , , , , , topBank
@@ -32,7 +32,7 @@ B4, VPP, not used, , , , , , , topBank
 B5, PIO, not used, , , , , , , topBank
 B6, PIO_GBIN, not used, , , , , , , topBank
 C1, PIO, not used, , , , , , , bottomBank
-C2, PIO, tx, Output, , SB_LVCMOS, No Pull Up, , Simple Output, topBank
+C2, PIO, rx, Input, , SB_LVCMOS, No Pull Up, , Simple Input, topBank
 C3, GND, not used, , , , , , , UnknownBank
 C4, GND, not used, , , , , , , UnknownBank
 C5, VSSIO_LED, not used, , , , , , , topBank

@@ -3,7 +3,7 @@
 Part:			ICE40UL1KCM36A (Lattice)
 
 Click here to go to specific block report:
-<a href="rpt_top_areasrr.htm#top"><h5 align="center">top</h5></a><br><a href="rpt_top_areasrr.htm#top.TOK"><h5 align="center">TOK</h5></a><br><a href="rpt_top_areasrr.htm#TOK.UART"><h5 align="center">UART</h5></a><br><a name=top>
+<a href="rpt_top_areasrr.htm#top"><h5 align="center">top</h5></a><br><a href="rpt_top_areasrr.htm#top.TOK"><h5 align="center">TOK</h5></a><br><a href="rpt_top_areasrr.htm#TOK.RAM_init®hex_8s_8s"><h5 align="center">RAM_init®hex_8s_8s</h5></a><br><a href="rpt_top_areasrr.htm#TOK.STACK_8s_16s_127s"><h5 align="center">STACK_8s_16s_127s</h5></a><br><a href="rpt_top_areasrr.htm#TOK.STACK_8s_8s_63s"><h5 align="center">STACK_8s_8s_63s</h5></a><br><a href="rpt_top_areasrr.htm#TOK.RAM_blank256®hex_8s_16s_0"><h5 align="center">RAM_blank256®hex_8s_16s_0</h5></a><br><a href="rpt_top_areasrr.htm#TOK.UART"><h5 align="center">UART</h5></a><br><a name=top>
 -------------------------------------------------------------------
 ########   Utilization report for  Top level view:   top   ########
 ===================================================================
@@ -11,28 +11,37 @@ Click here to go to specific block report:
 SEQUENTIAL ELEMENTS
 Name      Total elements     Utilization     Notes
 --------------------------------------------------
-FLOPS     20                 100 %                
+FLOPS     309                100 %                
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block top:	20 (40.00 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block top:	309 (28.85 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 
 COMBINATIONAL LOGIC
 Name       Total elements     Utilization     Notes
 ---------------------------------------------------
-LUTS       13                 100 %                
-CARRYS     8                  100 %                
+LUTS       662                100 %                
+CARRYS     75                 100 %                
 ===================================================
-Total COMBINATIONAL LOGIC in the block top:	21 (42.00 % Utilization)
+Total COMBINATIONAL LOGIC in the block top:	737 (68.81 % Utilization)
+
+<a href="#TopSummary"><h5 align="right">Top</h5></a>
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     3                  100 %                
+=================================================
+Total MEMORY ELEMENTS in the block top:	3 (0.28 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-PADS     1                  100 %                
+PADS     6                  100 %                
 =================================================
-Total IO PADS in the block top:	1 (2.00 % Utilization)
+Total IO PADS in the block top:	6 (0.56 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 <a name=top.TOK>
@@ -44,19 +53,129 @@ Instance path:   top.TOK
 SEQUENTIAL ELEMENTS
 Name      Total elements     Utilization     Notes
 --------------------------------------------------
-FLOPS     20                 100 %                
+FLOPS     309                100 %                
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block top.TOK:	20 (40.00 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block top.TOK:	309 (28.85 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 
 COMBINATIONAL LOGIC
 Name       Total elements     Utilization     Notes
 ---------------------------------------------------
-LUTS       13                 100 %                
-CARRYS     8                  100 %                
+LUTS       661                99.8 %               
+CARRYS     75                 100 %                
 ===================================================
-Total COMBINATIONAL LOGIC in the block top.TOK:	21 (42.00 % Utilization)
+Total COMBINATIONAL LOGIC in the block top.TOK:	736 (68.72 % Utilization)
+
+<a href="#TopSummary"><h5 align="right">Top</h5></a>
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     3                  100 %                
+=================================================
+Total MEMORY ELEMENTS in the block top.TOK:	3 (0.28 % Utilization)
+
+<a href="#TopSummary"><h5 align="right">Top</h5></a>
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     2                  33.3 %               
+=================================================
+Total IO PADS in the block top.TOK:	2 (0.19 % Utilization)
+
+<a href="#TopSummary"><h5 align="right">Top</h5></a>
+<a name=TOK.RAM_blank256®hex_8s_16s_0>
+--------------------------------------------------------------------------------
+########   Utilization report for  cell:   RAM_blank256\.hex_8s_16s_0   ########
+Instance path:   TOK.RAM_blank256\.hex_8s_16s_0                                 
+================================================================================
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     2                  66.7 %               
+=================================================
+Total MEMORY ELEMENTS in the block TOK.RAM_blank256®hex_8s_16s_0:	2 (0.19 % Utilization)
+
+<a href="#TopSummary"><h5 align="right">Top</h5></a>
+<a name=TOK.RAM_init®hex_8s_8s>
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   RAM_init\.hex_8s_8s   ########
+Instance path:   TOK.RAM_init\.hex_8s_8s                                 
+=========================================================================
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     1                  33.3 %               
+=================================================
+Total MEMORY ELEMENTS in the block TOK.RAM_init®hex_8s_8s:	1 (0.09 % Utilization)
+
+<a href="#TopSummary"><h5 align="right">Top</h5></a>
+<a name=TOK.STACK_8s_16s_127s>
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   STACK_8s_16s_127s   ########
+Instance path:   TOK.STACK_8s_16s_127s                                 
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     144                46.6 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block TOK.STACK_8s_16s_127s:	144 (13.45 % Utilization)
+
+<a href="#TopSummary"><h5 align="right">Top</h5></a>
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     159                24 %                 
+=================================================
+Total COMBINATIONAL LOGIC in the block TOK.STACK_8s_16s_127s:	159 (14.85 % Utilization)
+
+<a href="#TopSummary"><h5 align="right">Top</h5></a>
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  16.7 %               
+=================================================
+Total IO PADS in the block TOK.STACK_8s_16s_127s:	1 (0.09 % Utilization)
+
+<a href="#TopSummary"><h5 align="right">Top</h5></a>
+<a name=TOK.STACK_8s_8s_63s>
+---------------------------------------------------------------------
+########   Utilization report for  cell:   STACK_8s_8s_63s   ########
+Instance path:   TOK.STACK_8s_8s_63s                                 
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     72                 23.3 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block TOK.STACK_8s_8s_63s:	72 (6.72 % Utilization)
+
+<a href="#TopSummary"><h5 align="right">Top</h5></a>
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     72                 10.9 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block TOK.STACK_8s_8s_63s:	72 (6.72 % Utilization)
+
+<a href="#TopSummary"><h5 align="right">Top</h5></a>
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  16.7 %               
+=================================================
+Total IO PADS in the block TOK.STACK_8s_8s_63s:	1 (0.09 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 <a name=TOK.UART>
@@ -68,21 +187,39 @@ Instance path:   TOK.UART
 SEQUENTIAL ELEMENTS
 Name      Total elements     Utilization     Notes
 --------------------------------------------------
-FLOPS     20                 100 %                
+FLOPS     55                 17.8 %               
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block TOK.UART:	20 (40.00 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block TOK.UART:	55 (5.14 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 
 COMBINATIONAL LOGIC
 Name       Total elements     Utilization     Notes
 ---------------------------------------------------
-LUTS       13                 100 %                
-CARRYS     8                  100 %                
+LUTS       384                58 %                 
+CARRYS     20                 26.7 %               
 ===================================================
-Total COMBINATIONAL LOGIC in the block TOK.UART:	21 (42.00 % Utilization)
+Total COMBINATIONAL LOGIC in the block TOK.UART:	404 (37.72 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
+#### START OF Block RAM DETAILED REPORT ####
+
+Total Block RAMs: 3
+
+tok.vals.mem_mem_0_1
+----------------------------
+----------------------------
+
+tok.vals.mem_mem_0_0
+----------------------------
+----------------------------
+
+tok.ram.mem_mem_0_0
+----------------------------
+----------------------------
+
+#### END OF  Block RAM DETAILED REPORT ####
+
 
 ##### END OF AREA REPORT #####]
 </a></body></html>

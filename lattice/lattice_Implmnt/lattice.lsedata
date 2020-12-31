@@ -211,42 +211,6 @@
         </nets>
     </instance>
 
-    <instance  name = "tok/T_7__I_0"  library = "work"  arch = ""  type = "comb">
-        <pins>
-        <pitem  name = "b[7]"  direction = "in"  />
-        <pitem  name = "b[6]"  direction = "in"  />
-        <pitem  name = "b[4]"  direction = "in"  />
-        <pitem  name = "b[3]"  direction = "in"  />
-        <pitem  name = "b[2]"  direction = "in"  />
-        <pitem  name = "b[5]"  direction = "in"  />
-        <pitem  name = "b[1]"  direction = "in"  />
-        <pitem  name = "b[0]"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        <pitem  name = "a[7]"  direction = "in"  />
-        <pitem  name = "a[6]"  direction = "in"  />
-        <pitem  name = "a[5]"  direction = "in"  />
-        <pitem  name = "a[4]"  direction = "in"  />
-        <pitem  name = "a[3]"  direction = "in"  />
-        <pitem  name = "a[2]"  direction = "in"  />
-        <pitem  name = "a[1]"  direction = "in"  />
-        <pitem  name = "a[0]"  direction = "in"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "tok/n645"  />
-        <nitem  name = "tok/pwr"  />
-        <nitem  name = "tok/write_flag"  />
-        <nitem  name = "tok/T[7]"  />
-        <nitem  name = "tok/T[6]"  />
-        <nitem  name = "tok/T[5]"  />
-        <nitem  name = "tok/T[4]"  />
-        <nitem  name = "tok/T[3]"  />
-        <nitem  name = "tok/T[2]"  />
-        <nitem  name = "tok/T[1]"  />
-        <nitem  name = "tok/T[0]"  />
-        </nets>
-    </instance>
-
     <instance  name = "tok/stall_I_0_203"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "b[9]"  direction = "in"  />
@@ -1029,175 +993,31 @@
         </nets>
     </instance>
 
-    <instance  name = "tok/T_7__I_0_214"  library = "work"  arch = ""  type = "comb">
-        <pins>
-        <pitem  name = "b[7]"  direction = "in"  />
-        <pitem  name = "b[6]"  direction = "in"  />
-        <pitem  name = "b[4]"  direction = "in"  />
-        <pitem  name = "b[3]"  direction = "in"  />
-        <pitem  name = "b[2]"  direction = "in"  />
-        <pitem  name = "b[1]"  direction = "in"  />
-        <pitem  name = "b[5]"  direction = "in"  />
-        <pitem  name = "b[0]"  direction = "in"  />
-        <pitem  name = "a[7]"  direction = "in"  />
-        <pitem  name = "a[6]"  direction = "in"  />
-        <pitem  name = "a[5]"  direction = "in"  />
-        <pitem  name = "a[4]"  direction = "in"  />
-        <pitem  name = "a[3]"  direction = "in"  />
-        <pitem  name = "a[2]"  direction = "in"  />
-        <pitem  name = "a[1]"  direction = "in"  />
-        <pitem  name = "a[0]"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "tok/n645"  />
-        <nitem  name = "tok/pwr"  />
-        <nitem  name = "tok/T[7]"  />
-        <nitem  name = "tok/T[6]"  />
-        <nitem  name = "tok/T[5]"  />
-        <nitem  name = "tok/T[4]"  />
-        <nitem  name = "tok/T[3]"  />
-        <nitem  name = "tok/T[2]"  />
-        <nitem  name = "tok/T[1]"  />
-        <nitem  name = "tok/T[0]"  />
-        <nitem  name = "tok/table_search_N_32"  />
-        </nets>
-    </instance>
-
-    <instance  name = "tok/T_7__I_0_215"  library = "work"  arch = ""  type = "comb">
-        <pins>
-        <pitem  name = "b[7]"  direction = "in"  />
-        <pitem  name = "b[5]"  direction = "in"  />
-        <pitem  name = "b[4]"  direction = "in"  />
-        <pitem  name = "b[3]"  direction = "in"  />
-        <pitem  name = "b[2]"  direction = "in"  />
-        <pitem  name = "b[1]"  direction = "in"  />
-        <pitem  name = "b[0]"  direction = "in"  />
-        <pitem  name = "b[6]"  direction = "in"  />
-        <pitem  name = "a[7]"  direction = "in"  />
-        <pitem  name = "a[6]"  direction = "in"  />
-        <pitem  name = "a[5]"  direction = "in"  />
-        <pitem  name = "a[4]"  direction = "in"  />
-        <pitem  name = "a[3]"  direction = "in"  />
-        <pitem  name = "a[2]"  direction = "in"  />
-        <pitem  name = "a[1]"  direction = "in"  />
-        <pitem  name = "a[0]"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "tok/n645"  />
-        <nitem  name = "tok/pwr"  />
-        <nitem  name = "tok/T[7]"  />
-        <nitem  name = "tok/T[6]"  />
-        <nitem  name = "tok/T[5]"  />
-        <nitem  name = "tok/T[4]"  />
-        <nitem  name = "tok/T[3]"  />
-        <nitem  name = "tok/T[2]"  />
-        <nitem  name = "tok/T[1]"  />
-        <nitem  name = "tok/T[0]"  />
-        <nitem  name = "tok/table_search_N_33"  />
-        </nets>
-    </instance>
-
     <instance  name = "tok/table_search_I_3"  library = "work"  arch = ""  type = "comb">
         <pins>
+        <pitem  name = "o"  direction = "out"  />
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
         </pins>
 
         <nets>
+        <nitem  name = "tok/table_search_N_31"  />
         <nitem  name = "tok/table_search_N_32"  />
         <nitem  name = "tok/table_search_N_33"  />
-        <nitem  name = "tok/table_search_N_31"  />
-        </nets>
-    </instance>
-
-    <instance  name = "tok/T_7__I_0_213"  library = "work"  arch = ""  type = "comb">
-        <pins>
-        <pitem  name = "b[7]"  direction = "in"  />
-        <pitem  name = "b[0]"  direction = "in"  />
-        <pitem  name = "b[6]"  direction = "in"  />
-        <pitem  name = "b[5]"  direction = "in"  />
-        <pitem  name = "b[4]"  direction = "in"  />
-        <pitem  name = "b[3]"  direction = "in"  />
-        <pitem  name = "b[2]"  direction = "in"  />
-        <pitem  name = "b[1]"  direction = "in"  />
-        <pitem  name = "a[7]"  direction = "in"  />
-        <pitem  name = "a[6]"  direction = "in"  />
-        <pitem  name = "a[5]"  direction = "in"  />
-        <pitem  name = "a[4]"  direction = "in"  />
-        <pitem  name = "a[3]"  direction = "in"  />
-        <pitem  name = "a[2]"  direction = "in"  />
-        <pitem  name = "a[1]"  direction = "in"  />
-        <pitem  name = "a[0]"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "tok/n645"  />
-        <nitem  name = "tok/pwr"  />
-        <nitem  name = "tok/T[7]"  />
-        <nitem  name = "tok/T[6]"  />
-        <nitem  name = "tok/T[5]"  />
-        <nitem  name = "tok/T[4]"  />
-        <nitem  name = "tok/T[3]"  />
-        <nitem  name = "tok/T[2]"  />
-        <nitem  name = "tok/T[1]"  />
-        <nitem  name = "tok/T[0]"  />
-        <nitem  name = "tok/c_stk_w_7__N_26"  />
         </nets>
     </instance>
 
     <instance  name = "tok/table_search_I_2"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "a1"  direction = "in"  />
         <pitem  name = "o"  direction = "out"  />
+        <pitem  name = "a1"  direction = "in"  />
         </pins>
 
         <nets>
         <nitem  name = "tok/table_search_N_31"  />
-        <nitem  name = "tok/c_stk_w_7__N_26"  />
         <nitem  name = "tok/table_search_N_30"  />
-        </nets>
-    </instance>
-
-    <instance  name = "tok/T_7__I_0_219"  library = "work"  arch = ""  type = "comb">
-        <pins>
-        <pitem  name = "b[7]"  direction = "in"  />
-        <pitem  name = "b[6]"  direction = "in"  />
-        <pitem  name = "b[4]"  direction = "in"  />
-        <pitem  name = "b[2]"  direction = "in"  />
-        <pitem  name = "b[1]"  direction = "in"  />
-        <pitem  name = "b[0]"  direction = "in"  />
-        <pitem  name = "b[5]"  direction = "in"  />
-        <pitem  name = "b[3]"  direction = "in"  />
-        <pitem  name = "a[7]"  direction = "in"  />
-        <pitem  name = "a[6]"  direction = "in"  />
-        <pitem  name = "a[5]"  direction = "in"  />
-        <pitem  name = "a[4]"  direction = "in"  />
-        <pitem  name = "a[3]"  direction = "in"  />
-        <pitem  name = "a[2]"  direction = "in"  />
-        <pitem  name = "a[1]"  direction = "in"  />
-        <pitem  name = "a[0]"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "tok/n645"  />
-        <nitem  name = "tok/pwr"  />
-        <nitem  name = "tok/T[7]"  />
-        <nitem  name = "tok/T[6]"  />
-        <nitem  name = "tok/T[5]"  />
-        <nitem  name = "tok/T[4]"  />
-        <nitem  name = "tok/T[3]"  />
-        <nitem  name = "tok/T[2]"  />
-        <nitem  name = "tok/T[1]"  />
-        <nitem  name = "tok/T[0]"  />
-        <nitem  name = "tok/table_search_N_34"  />
+        <nitem  name = "tok/c_stk_w_7__N_26"  />
         </nets>
     </instance>
 
@@ -1218,14 +1038,14 @@
     <instance  name = "tok/table_search_N_32_I_0"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "o"  direction = "out"  />
-        <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
         </pins>
 
         <nets>
         <nitem  name = "tok/table_write"  />
-        <nitem  name = "tok/table_search_N_32"  />
         <nitem  name = "tok/table_search_N_34"  />
+        <nitem  name = "tok/table_search_N_32"  />
         </nets>
     </instance>
 
@@ -2329,16 +2149,52 @@
         </nets>
     </instance>
 
-    <instance  name = "tok/A__15__I_15"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "tok/T_7__I_0_219"  library = "work"  arch = ""  type = "comb">
         <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "b[7]"  direction = "in"  />
+        <pitem  name = "b[6]"  direction = "in"  />
+        <pitem  name = "b[4]"  direction = "in"  />
+        <pitem  name = "b[2]"  direction = "in"  />
+        <pitem  name = "b[1]"  direction = "in"  />
+        <pitem  name = "b[0]"  direction = "in"  />
+        <pitem  name = "b[5]"  direction = "in"  />
+        <pitem  name = "b[3]"  direction = "in"  />
+        <pitem  name = "a[7]"  direction = "in"  />
+        <pitem  name = "a[6]"  direction = "in"  />
+        <pitem  name = "a[5]"  direction = "in"  />
+        <pitem  name = "a[4]"  direction = "in"  />
+        <pitem  name = "a[3]"  direction = "in"  />
+        <pitem  name = "a[2]"  direction = "in"  />
+        <pitem  name = "a[1]"  direction = "in"  />
+        <pitem  name = "a[0]"  direction = "in"  />
         <pitem  name = "o"  direction = "out"  />
         </pins>
 
         <nets>
+        <nitem  name = "tok/n645"  />
+        <nitem  name = "tok/pwr"  />
+        <nitem  name = "tok/T[7]"  />
+        <nitem  name = "tok/T[6]"  />
+        <nitem  name = "tok/T[5]"  />
+        <nitem  name = "tok/T[4]"  />
+        <nitem  name = "tok/T[3]"  />
+        <nitem  name = "tok/T[2]"  />
+        <nitem  name = "tok/T[1]"  />
+        <nitem  name = "tok/T[0]"  />
         <nitem  name = "tok/table_search_N_34"  />
+        </nets>
+    </instance>
+
+    <instance  name = "tok/A__15__I_15"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
         <nitem  name = "tok/A__15__N_101"  />
+        <nitem  name = "tok/table_search_N_34"  />
         <nitem  name = "tok/A__15__N_100"  />
         </nets>
     </instance>
@@ -5173,6 +5029,42 @@
         </nets>
     </instance>
 
+    <instance  name = "tok/T_7__I_0_214"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "b[7]"  direction = "in"  />
+        <pitem  name = "b[6]"  direction = "in"  />
+        <pitem  name = "b[4]"  direction = "in"  />
+        <pitem  name = "b[3]"  direction = "in"  />
+        <pitem  name = "b[2]"  direction = "in"  />
+        <pitem  name = "b[1]"  direction = "in"  />
+        <pitem  name = "b[5]"  direction = "in"  />
+        <pitem  name = "b[0]"  direction = "in"  />
+        <pitem  name = "a[7]"  direction = "in"  />
+        <pitem  name = "a[6]"  direction = "in"  />
+        <pitem  name = "a[5]"  direction = "in"  />
+        <pitem  name = "a[4]"  direction = "in"  />
+        <pitem  name = "a[3]"  direction = "in"  />
+        <pitem  name = "a[2]"  direction = "in"  />
+        <pitem  name = "a[1]"  direction = "in"  />
+        <pitem  name = "a[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "tok/n645"  />
+        <nitem  name = "tok/pwr"  />
+        <nitem  name = "tok/T[7]"  />
+        <nitem  name = "tok/T[6]"  />
+        <nitem  name = "tok/T[5]"  />
+        <nitem  name = "tok/T[4]"  />
+        <nitem  name = "tok/T[3]"  />
+        <nitem  name = "tok/T[2]"  />
+        <nitem  name = "tok/T[1]"  />
+        <nitem  name = "tok/T[0]"  />
+        <nitem  name = "tok/table_search_N_32"  />
+        </nets>
+    </instance>
+
     <instance  name = "tok/equal_159"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "b[7]"  direction = "in"  />
@@ -5209,14 +5101,119 @@
         </nets>
     </instance>
 
+    <instance  name = "tok/T_7__I_0_213"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "b[7]"  direction = "in"  />
+        <pitem  name = "b[0]"  direction = "in"  />
+        <pitem  name = "b[6]"  direction = "in"  />
+        <pitem  name = "b[5]"  direction = "in"  />
+        <pitem  name = "b[4]"  direction = "in"  />
+        <pitem  name = "b[3]"  direction = "in"  />
+        <pitem  name = "b[2]"  direction = "in"  />
+        <pitem  name = "b[1]"  direction = "in"  />
+        <pitem  name = "a[7]"  direction = "in"  />
+        <pitem  name = "a[6]"  direction = "in"  />
+        <pitem  name = "a[5]"  direction = "in"  />
+        <pitem  name = "a[4]"  direction = "in"  />
+        <pitem  name = "a[3]"  direction = "in"  />
+        <pitem  name = "a[2]"  direction = "in"  />
+        <pitem  name = "a[1]"  direction = "in"  />
+        <pitem  name = "a[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "tok/n645"  />
+        <nitem  name = "tok/pwr"  />
+        <nitem  name = "tok/T[7]"  />
+        <nitem  name = "tok/T[6]"  />
+        <nitem  name = "tok/T[5]"  />
+        <nitem  name = "tok/T[4]"  />
+        <nitem  name = "tok/T[3]"  />
+        <nitem  name = "tok/T[2]"  />
+        <nitem  name = "tok/T[1]"  />
+        <nitem  name = "tok/T[0]"  />
+        <nitem  name = "tok/c_stk_w_7__N_26"  />
+        </nets>
+    </instance>
+
+    <instance  name = "tok/T_7__I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "b[7]"  direction = "in"  />
+        <pitem  name = "b[6]"  direction = "in"  />
+        <pitem  name = "b[4]"  direction = "in"  />
+        <pitem  name = "b[3]"  direction = "in"  />
+        <pitem  name = "b[2]"  direction = "in"  />
+        <pitem  name = "b[5]"  direction = "in"  />
+        <pitem  name = "b[1]"  direction = "in"  />
+        <pitem  name = "b[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        <pitem  name = "a[7]"  direction = "in"  />
+        <pitem  name = "a[6]"  direction = "in"  />
+        <pitem  name = "a[5]"  direction = "in"  />
+        <pitem  name = "a[4]"  direction = "in"  />
+        <pitem  name = "a[3]"  direction = "in"  />
+        <pitem  name = "a[2]"  direction = "in"  />
+        <pitem  name = "a[1]"  direction = "in"  />
+        <pitem  name = "a[0]"  direction = "in"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "tok/n645"  />
+        <nitem  name = "tok/pwr"  />
+        <nitem  name = "tok/write_flag"  />
+        <nitem  name = "tok/T[7]"  />
+        <nitem  name = "tok/T[6]"  />
+        <nitem  name = "tok/T[5]"  />
+        <nitem  name = "tok/T[4]"  />
+        <nitem  name = "tok/T[3]"  />
+        <nitem  name = "tok/T[2]"  />
+        <nitem  name = "tok/T[1]"  />
+        <nitem  name = "tok/T[0]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "tok/T_7__I_0_215"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "b[7]"  direction = "in"  />
+        <pitem  name = "b[5]"  direction = "in"  />
+        <pitem  name = "b[4]"  direction = "in"  />
+        <pitem  name = "b[3]"  direction = "in"  />
+        <pitem  name = "b[2]"  direction = "in"  />
+        <pitem  name = "b[1]"  direction = "in"  />
+        <pitem  name = "b[0]"  direction = "in"  />
+        <pitem  name = "b[6]"  direction = "in"  />
+        <pitem  name = "a[7]"  direction = "in"  />
+        <pitem  name = "a[6]"  direction = "in"  />
+        <pitem  name = "a[5]"  direction = "in"  />
+        <pitem  name = "a[4]"  direction = "in"  />
+        <pitem  name = "a[3]"  direction = "in"  />
+        <pitem  name = "a[2]"  direction = "in"  />
+        <pitem  name = "a[1]"  direction = "in"  />
+        <pitem  name = "a[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "tok/n645"  />
+        <nitem  name = "tok/pwr"  />
+        <nitem  name = "tok/T[7]"  />
+        <nitem  name = "tok/T[6]"  />
+        <nitem  name = "tok/T[5]"  />
+        <nitem  name = "tok/T[4]"  />
+        <nitem  name = "tok/T[3]"  />
+        <nitem  name = "tok/T[2]"  />
+        <nitem  name = "tok/T[1]"  />
+        <nitem  name = "tok/T[0]"  />
+        <nitem  name = "tok/table_search_N_33"  />
+        </nets>
+    </instance>
+
     <instance  name = "tok/reduce_nor_165"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a[3]"  direction = "in"  />
         <pitem  name = "a[1]"  direction = "in"  />
         <pitem  name = "a[0]"  direction = "in"  />
-        <pitem  name = "a[6]"  direction = "in"  />
-        <pitem  name = "a[2]"  direction = "in"  />
-        <pitem  name = "a[4]"  direction = "in"  />
         <pitem  name = "a[53]"  direction = "in"  />
         <pitem  name = "a[52]"  direction = "in"  />
         <pitem  name = "a[51]"  direction = "in"  />
@@ -5264,7 +5261,10 @@
         <pitem  name = "a[9]"  direction = "in"  />
         <pitem  name = "a[8]"  direction = "in"  />
         <pitem  name = "a[7]"  direction = "in"  />
+        <pitem  name = "a[6]"  direction = "in"  />
         <pitem  name = "a[5]"  direction = "in"  />
+        <pitem  name = "a[4]"  direction = "in"  />
+        <pitem  name = "a[2]"  direction = "in"  />
         <pitem  name = "o"  direction = "out"  />
         </pins>
 
@@ -5272,9 +5272,6 @@
         <nitem  name = "tok/write_flag"  />
         <nitem  name = "tok/uart_stall_N_50"  />
         <nitem  name = "tok/uart_stall_N_48"  />
-        <nitem  name = "tok/table_search_N_32"  />
-        <nitem  name = "tok/table_search_N_33"  />
-        <nitem  name = "tok/c_stk_w_7__N_26"  />
         <nitem  name = "tok/n356"  />
         <nitem  name = "tok/n357"  />
         <nitem  name = "tok/n358"  />
@@ -5322,7 +5319,10 @@
         <nitem  name = "tok/n400"  />
         <nitem  name = "tok/n401"  />
         <nitem  name = "tok/n402"  />
+        <nitem  name = "tok/table_search_N_32"  />
         <nitem  name = "tok/n404"  />
+        <nitem  name = "tok/c_stk_w_7__N_26"  />
+        <nitem  name = "tok/table_search_N_33"  />
         <nitem  name = "tok/n410"  />
         </nets>
     </instance>
@@ -5444,9 +5444,6 @@
         <pitem  name = "data[8]"  direction = "in"  />
         <pitem  name = "sel[2]"  direction = "in"  />
         <pitem  name = "sel[1]"  direction = "in"  />
-        <pitem  name = "sel[7]"  direction = "in"  />
-        <pitem  name = "sel[3]"  direction = "in"  />
-        <pitem  name = "sel[5]"  direction = "in"  />
         <pitem  name = "data[879]"  direction = "in"  />
         <pitem  name = "data[863]"  direction = "in"  />
         <pitem  name = "data[847]"  direction = "in"  />
@@ -6262,7 +6259,10 @@
         <pitem  name = "sel[10]"  direction = "in"  />
         <pitem  name = "sel[9]"  direction = "in"  />
         <pitem  name = "sel[8]"  direction = "in"  />
+        <pitem  name = "sel[7]"  direction = "in"  />
         <pitem  name = "sel[6]"  direction = "in"  />
+        <pitem  name = "sel[5]"  direction = "in"  />
+        <pitem  name = "sel[3]"  direction = "in"  />
         <pitem  name = "sel[0]"  direction = "in"  />
         <pitem  name = "o[15]"  direction = "out"  />
         <pitem  name = "o[14]"  direction = "out"  />
@@ -6335,9 +6335,6 @@
         <nitem  name = "tok/A[8]"  />
         <nitem  name = "tok/uart_stall_N_50"  />
         <nitem  name = "tok/uart_stall_N_48"  />
-        <nitem  name = "tok/table_search_N_32"  />
-        <nitem  name = "tok/table_search_N_33"  />
-        <nitem  name = "tok/c_stk_w_7__N_26"  />
         <nitem  name = "tok/n174"  />
         <nitem  name = "tok/n175"  />
         <nitem  name = "tok/n176"  />
@@ -6529,7 +6526,10 @@
         <nitem  name = "tok/n400"  />
         <nitem  name = "tok/n401"  />
         <nitem  name = "tok/n402"  />
+        <nitem  name = "tok/table_search_N_32"  />
         <nitem  name = "tok/n404"  />
+        <nitem  name = "tok/c_stk_w_7__N_26"  />
+        <nitem  name = "tok/table_search_N_33"  />
         <nitem  name = "tok/n410"  />
         <nitem  name = "tok/A__15__N_113[15]"  />
         <nitem  name = "tok/A__15__N_113[14]"  />
@@ -7699,14 +7699,14 @@
 
     <instance  name = "tok/tc"  library = "work"  arch = ""  type = "reg">
         <pins>
+        <pitem  name = "reset[0]"  direction = "in"  />
+        <pitem  name = "reset[1]"  direction = "in"  />
         <pitem  name = "reset[2]"  direction = "in"  />
         <pitem  name = "reset[3]"  direction = "in"  />
         <pitem  name = "reset[4]"  direction = "in"  />
         <pitem  name = "reset[5]"  direction = "in"  />
         <pitem  name = "reset[6]"  direction = "in"  />
         <pitem  name = "reset[7]"  direction = "in"  />
-        <pitem  name = "reset[0]"  direction = "in"  />
-        <pitem  name = "reset[1]"  direction = "in"  />
         <pitem  name = "clock"  direction = "in"  />
         <pitem  name = "q[7]"  direction = "out"  />
         <pitem  name = "q[6]"  direction = "out"  />
@@ -14746,14 +14746,14 @@
         <nitem  name = "tok/uart/gnd"  />
         <nitem  name = "tok/uart/pwr"  />
         <nitem  name = "tok/uart_wr"  />
-        <nitem  name = "tok/A_low[7]"  />
-        <nitem  name = "tok/A_low[6]"  />
-        <nitem  name = "tok/A_low[5]"  />
-        <nitem  name = "tok/A_low[4]"  />
-        <nitem  name = "tok/A_low[3]"  />
-        <nitem  name = "tok/A_low[2]"  />
-        <nitem  name = "tok/A_low[1]"  />
-        <nitem  name = "tok/A_low[0]"  />
+        <nitem  name = "tok/A_[7]"  />
+        <nitem  name = "tok/A_[6]"  />
+        <nitem  name = "tok/A_[5]"  />
+        <nitem  name = "tok/A_[4]"  />
+        <nitem  name = "tok/A_[3]"  />
+        <nitem  name = "tok/A_[2]"  />
+        <nitem  name = "tok/A_[1]"  />
+        <nitem  name = "tok/A_[0]"  />
         <nitem  name = "tok/uart/sender_9__N_609[9]"  />
         <nitem  name = "tok/uart/sender_9__N_609[8]"  />
         <nitem  name = "tok/uart/sender_9__N_609[7]"  />

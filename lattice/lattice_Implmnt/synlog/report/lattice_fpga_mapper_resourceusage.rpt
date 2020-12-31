@@ -3,24 +3,34 @@ Resource Usage Report for top
 
 Mapping to part: ice40ul1kcm36a
 Cell usage:
-GND             2 uses
-SB_CARRY        8 uses
-SB_DFF          10 uses
-SB_DFFE         10 uses
+GND             6 uses
+SB_CARRY        75 uses
+SB_DFF          26 uses
+SB_DFFE         244 uses
+SB_DFFER        8 uses
+SB_DFFR         22 uses
+SB_DFFS         8 uses
+SB_DFFSS        1 use
+SB_GB           3 uses
 SB_HFOSC        1 use
-VCC             2 uses
-SB_LUT4         13 uses
+SB_RAM256x16    3 uses
+VCC             6 uses
+SB_LUT4         662 uses
 
 I/O ports: 3
-I/O primitives: 1
-SB_IO          1 use
+I/O primitives: 3
+SB_IO          3 uses
 
 I/O Register bits:                  0
-Register bits not including I/Os:   20 (1%)
+Register bits not including I/Os:   309 (27%)
+
+RAM/ROM usage summary
+Block Rams : 3 of 16 (18%)
+
 
 @S |Mapping Summary:
-Total  LUTs: 13 (1%)
+Total  LUTs: 662 (59%)
 
 Distribution of All Consumed LUTs = LUT4 
-Distribution of All Consumed Luts 13 = 13 
+Distribution of All Consumed Luts 662 = 662 
 

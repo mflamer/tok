@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L+ice40
 #--  Project file C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\run_options.txt
-#--  Written on Sat Dec 26 17:11:21 2020
+#--  Written on Wed Dec 30 19:56:33 2020
 
 
 #project files

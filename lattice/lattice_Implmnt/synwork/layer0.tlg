@@ -40,15 +40,10 @@ Selecting top level module top
 @N: CG179 :"C:\cloud\dev\verilog\tok\uart.v":53:42:53:48|Removing redundant assignment.
 @N: CG179 :"C:\cloud\dev\verilog\tok\uart.v":54:46:54:50|Removing redundant assignment.
 @N: CG179 :"C:\cloud\dev\verilog\tok\uart.v":66:92:66:97|Removing redundant assignment.
-@N: CG364 :"C:\cloud\dev\verilog\tok\tok.v":11:7:11:9|Synthesizing module TOK in library work.
+@N: CG364 :"C:\cloud\dev\verilog\tok\tok.v":12:7:12:9|Synthesizing module TOK in library work.
 
-@W: CG360 :"C:\cloud\dev\verilog\tok\tok.v":30:7:30:16|Removing wire write_flag, as there is no assignment to it.
-@W: CG133 :"C:\cloud\dev\verilog\tok\tok.v":31:12:31:21|Object addr_write is declared but not assigned. Either assign a value or remove the declaration.
-@W: CL169 :"C:\cloud\dev\verilog\tok\tok.v":150:2:150:7|Pruning unused register search_clk. Make sure that there are no unused intermediate registers.
 @N: CG364 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v":4020:7:4020:14|Synthesizing module SB_HFOSC in library work.
 
 @N: CG364 :"C:\cloud\dev\verilog\tok\lattice_top.v":4:7:4:9|Synthesizing module top in library work.
 
-@A: CL153 :"C:\cloud\dev\verilog\tok\tok.v":31:12:31:21|*Unassigned bits of addr_write[7:0] are referenced and tied to 0 -- simulation mismatch possible.
-@W: CL156 :"C:\cloud\dev\verilog\tok\tok.v":30:7:30:16|*Input write_flag to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
 @N: CL159 :"C:\cloud\dev\verilog\tok\uart.v":5:10:5:15|Input resetq is unused.

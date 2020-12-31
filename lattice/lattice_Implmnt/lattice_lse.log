@@ -3,7 +3,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
-Tue Dec 29 20:56:20 2020
+Thu Dec 31 10:48:38 2020
 
 
 Command Line:  C:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f lattice_lse.prj 
@@ -123,7 +123,6 @@ WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/
 Top module name (Verilog): top
 INFO - synthesis: ../lattice_top.v(4): compiling module top. VERI-1018
 INFO - synthesis: ../tok.v(12): compiling module TOK. VERI-1018
-WARNING - synthesis: ../tok.v(141): expression size 16 truncated to fit in target size 8. VERI-1209
 INFO - synthesis: ../ram.v(3): compiling module RAM. VERI-1018
 INFO - synthesis: ../stack.v(3): compiling module STACK(WIDTH=16). VERI-1018
 INFO - synthesis: ../stack.v(3): compiling module STACK. VERI-1018
@@ -158,18 +157,18 @@ Results of NGD DRC are available in top_drc.log.
 ################### Begin Area Report (top)######################
 Number of register bits => 309 of 1000 (30 % )
 SB_CARRY => 86
-SB_DFF => 43
-SB_DFFE => 201
+SB_DFF => 51
+SB_DFFE => 192
 SB_DFFER => 16
 SB_DFFESR => 10
-SB_DFFESS => 1
+SB_DFFESS => 2
 SB_DFFR => 14
 SB_DFFS => 8
 SB_DFFSR => 14
 SB_DFFSS => 2
 SB_HFOSC => 1
 SB_IO => 3
-SB_LUT4 => 792
+SB_LUT4 => 796
 SB_RAM256x16 => 2
 SB_RAM512x8 => 1
 ################### End Area Report ##################
@@ -183,16 +182,16 @@ Number of Clock Enables: 0
 Top 0 highest fanout Clock Enables:
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : tok/rd_15__N_301, loads : 143
-  Net : tok/A_stk_delta_1, loads : 127
-  Net : tok/n29_adj_787, loads : 65
-  Net : tok/n2515, loads : 65
-  Net : tok/C_stk_delta_0, loads : 64
-  Net : tok/ram/T_0, loads : 56
-  Net : tok/ram/T_2, loads : 53
-  Net : tok/ram/T_1, loads : 49
+  Net : tok/n786, loads : 128
+  Net : tok/n29, loads : 128
+  Net : tok/A_stk/rd_15__N_301, loads : 128
+  Net : tok/rd_7__N_374, loads : 66
+  Net : tok/C_stk_delta_1, loads : 64
+  Net : tok/ram/T_0, loads : 50
+  Net : tok/ram/T_2, loads : 47
+  Net : tok/ram/T_1, loads : 43
   Net : tok/reset_N_2, loads : 38
-  Net : tok/ram/T_3, loads : 37
+  Net : tok/n14_adj_658, loads : 33
 ################### End Clock Report ##################
 
 Timing Report Summary
@@ -210,8 +209,8 @@ clk0 [get_nets clk]                     |   24.000 MHz|   30.484 MHz|    21
 All constraints were met.
 
 
-Peak Memory Usage: 68.637  MB
+Peak Memory Usage: 69.172  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 2.813  secs
+Elapsed CPU time for LSE flow : 3.016  secs
 --------------------------------------------------------------

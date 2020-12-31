@@ -6,7 +6,7 @@
 
 * Build Date:         Sep 11 2017 16:52:36
 
-* File Generated:     Dec 29 2020 20:58:12
+* File Generated:     Dec 31 2020 10:49:28
 
 * Purpose:            General info of design implementation
 
@@ -28,7 +28,7 @@ Device Info:
 Design statistics:
 ------------------
     FFs:                  309
-    LUTs:                 799
+    LUTs:                 803
     RAMs:                 3
     IOBs:                 3
     GBs:                  0
@@ -46,10 +46,10 @@ Design statistics:
 
 Logic Resource Utilization:
 ---------------------------
-    Total Logic Cells: 800/1248
-        Combinational Logic Cells: 491      out of   1248      39.3429%
+    Total Logic Cells: 804/1248
+        Combinational Logic Cells: 495      out of   1248      39.6635%
         Sequential Logic Cells:    309      out of   1248      24.7596%
-        Logic Tiles:               116      out of   156       74.359%
+        Logic Tiles:               118      out of   156       75.641%
     Registers: 
         Logic Registers:           309      out of   1248      24.7596%
         IO Registers:              0        out of   240       0
@@ -83,13 +83,13 @@ Detailed I/O Info:
     Input Pins: 
     Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name
     ----------  ---------  -----------  -------  -------  -----------    -----------
-    A3          Input      SB_LVCMOS    No       0        Simple Input   rx     
     B2          Input      SB_LVCMOS    No       0        Simple Input   reset  
+    C2          Input      SB_LVCMOS    No       0        Simple Input   rx     
 
     Output Pins: 
     Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name
     ----------  ---------  -----------  -------  -------  -----------    -----------
-    C2          Output     SB_LVCMOS    No       0        Simple Output  tx     
+    A3          Output     SB_LVCMOS    No       0        Simple Output  tx     
 
 
 
@@ -100,9 +100,9 @@ Router Summary:
 
 Routing Resource Utilization:
 -----------------------------
-              Local line of tile     6080 out of  28951      21.001%
-                          Span 4     1391 out of   6784      20.5041%
-                         Span 12      143 out of   1456      9.82143%
+              Local line of tile     6195 out of  28951      21.3982%
+                          Span 4     1456 out of   6784      21.4623%
+                         Span 12      137 out of   1456      9.40934%
                   Global network        1 out of      8      12.5%
-      Vertical Inter-LUT Connect      136 out of   1092      12.4542%
+      Vertical Inter-LUT Connect      161 out of   1092      14.7436%
 

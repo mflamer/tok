@@ -1,12 +1,13 @@
-@P:  Worst Slack : 12.243
-@P:  top|clk_inferred_clock - Estimated Frequency : 116.5 MHz
-@P:  top|clk_inferred_clock - Requested Frequency : 48.0 MHz
-@P:  top|clk_inferred_clock - Estimated Period : 8.587
-@P:  top|clk_inferred_clock - Requested Period : 20.830
-@P:  top|clk_inferred_clock - Slack : 12.243
+@P:  Worst Slack : 10.135
+@P:  top|clk_inferred_clock - Estimated Frequency : 31.7 MHz
+@P:  top|clk_inferred_clock - Requested Frequency : 24.0 MHz
+@P:  top|clk_inferred_clock - Estimated Period : 31.525
+@P:  top|clk_inferred_clock - Requested Period : 41.660
+@P:  top|clk_inferred_clock - Slack : 10.135
 @P: top Part : ice40ul1kcm36a
-@P: top I/O primitives : 1
+@P: top I/O primitives : 3
 @P: top I/O Register bits : 0
-@P: top Register bits (Non I/O) : 20 (1%)
-@P: top Total Luts : 13 (1%)
-@P:  CPU Time : 0h:00m:00s
+@P: top Register bits (Non I/O) : 309 (27%)
+@P: top Block Rams : 3 of 16 (18%)
+@P: top Total Luts : 662 (59%)
+@P:  CPU Time : 0h:00m:02s

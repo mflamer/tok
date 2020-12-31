@@ -6,7 +6,7 @@
 
 * Build Date:         Sep 11 2017 17:03:42
 
-* File Generated:     Dec 29 2020 20:58:12
+* File Generated:     Dec 31 2020 10:49:28
 
 * Purpose:            Router runtime info
 
@@ -20,11 +20,11 @@ I1202: Reading Architecture of device iCE40UL1K
 Info-1409: Inferred clock at OSCInst0/CLKHF
 SDC-Info-1101: Duty cycle not specified for clock. Assuming 50 percent dutycycle.
 I1209: Started routing
-I1223: Total Nets : 962 
-I1212: Iteration  1 :   178 unrouted : 1 seconds
-I1212: Iteration  2 :    22 unrouted : 0 seconds
-I1212: Iteration  3 :    17 unrouted : 0 seconds
-I1212: Iteration  4 :     4 unrouted : 0 seconds
+I1223: Total Nets : 975 
+I1212: Iteration  1 :   198 unrouted : 1 seconds
+I1212: Iteration  2 :    49 unrouted : 1 seconds
+I1212: Iteration  3 :    27 unrouted : 0 seconds
+I1212: Iteration  4 :     9 unrouted : 0 seconds
 I1212: Iteration  5 :     0 unrouted : 0 seconds
 I1215: Routing is successful
 I1206: Completed routing

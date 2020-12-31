@@ -1,13 +1,12 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 @N: MT206 |Auto Constrain mode is enabled
-@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":63:0:63:5|Removing sequential instance sentbits[3:0] (in view: work.UART(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":38:0:38:5|Removing sequential instance bytephase[5:0] (in view: work.UART(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":31:0:31:5|Removing sequential instance rxclkcounter[7:0] (in view: work.UART(verilog)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
-@N: BN362 :"c:\cloud\dev\verilog\tok\uart.v":45:19:45:24|Removing sequential instance capture[9:0] (in view: work.UART(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"c:\cloud\dev\verilog\tok\tok.v":150:2:150:7|Removing sequential instance A[15:0] (in view: work.TOK(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\cloud\dev\verilog\tok\tok.v":150:2:150:7|Removing sequential instance depth[3:0] (in view: work.TOK(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\cloud\dev\verilog\tok\tok.v":150:2:150:7|Removing sequential instance tc[7:0] (in view: work.TOK(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: MO231 :"c:\cloud\dev\verilog\tok\tok.v":151:2:151:7|Found counter in view:work.TOK(verilog) instance idx[7:0] 
+@N: MF179 :"c:\cloud\dev\verilog\tok\tok.v":81:46:81:57|Found 16 by 16 bit equality operator ('==') un1_key_rd_17 (in view: work.TOK(verilog))
+@N: MF179 :"c:\cloud\dev\verilog\tok\tok.v":116:19:116:26|Found 16 by 16 bit equality operator ('==') un35_A_ (in view: work.TOK(verilog))
+@N: FX1017 :|SB_GB inserted on the net tok.A_stk.head3_0_i.
+@N: FX1017 :|SB_GB inserted on the net tok.C_stk.head8_0_i.
+@N: FX1017 :|SB_GB inserted on the net reset_c_i.
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 @N: FX1056 |Writing EDF file: C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice.edf

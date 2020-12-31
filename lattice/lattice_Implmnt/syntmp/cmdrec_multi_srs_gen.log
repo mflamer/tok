@@ -1,7 +1,7 @@
 C:\lscc\iCEcube2.2017.08\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synwork\lattice_comp.srs  -osyn  C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synwork\lattice_mult.srs  -log  C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synlog\lattice_multi_srs_gen.srr 
-rc:0 success:1 runtime:0
-file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synwork\lattice_comp.srs|io:i|time:1609031482|size:18035|exec:0
-file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synwork\lattice_mult.srs|io:o|time:1609031483|size:2217|exec:0
-file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synlog\lattice_multi_srs_gen.srr|io:o|time:1609031483|size:751|exec:0
+rc:0 success:1 runtime:1
+file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synwork\lattice_comp.srs|io:i|time:1609386994|size:18731|exec:0
+file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synwork\lattice_mult.srs|io:o|time:1609386995|size:2233|exec:0
+file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synlog\lattice_multi_srs_gen.srr|io:o|time:1609386995|size:751|exec:0
 file:C:\lscc\iCEcube2.2017.08\synpbase\bin\syn_nfilter.exe|io:i|time:1608771808|size:3128320|exec:1
 file:C:\lscc\iCEcube2.2017.08\synpbase\bin64\syn_nfilter.exe|io:i|time:1608771809|size:3947520|exec:1

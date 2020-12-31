@@ -1,13 +1,13 @@
 C:\lscc\iCEcube2.2017.08\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt   -part iCE40UL1K  -package CM36A    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synlog\report\lattice_premap.xml  -oedif  C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice.edf  -conchk_prepass  C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice_cck.rpt   -autoconstraint  -freq 1.000   C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synwork\lattice_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synwork\lattice_prem.srd  -qsap  C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice.sap  -devicelib  C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v  -ologparam  C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\syntmp\lattice.plg  -osyn  C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synwork\lattice_prem.srd  -prjdir  C:\cloud\dev\verilog\tok\lattice\  -prjname  lattice_syn  -log  C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synlog\lattice_premap.srr 
-rc:1 success:1 runtime:1
-file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice.edf|io:o|time:1609029682|size:26064|exec:0
-file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice_cck.rpt|io:o|time:1609031484|size:2218|exec:0
-file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synwork\lattice_mult.srs|io:i|time:1609031483|size:2217|exec:0
-file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synwork\lattice_prem.srd|io:o|time:1609031483|size:8736|exec:0
-file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice.sap|io:o|time:1609031484|size:800|exec:0
+rc:1 success:1 runtime:0
+file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice.edf|io:o|time:0|size:0|exec:0
+file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice_cck.rpt|io:o|time:1609386996|size:2218|exec:0
+file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synwork\lattice_mult.srs|io:i|time:1609386995|size:2233|exec:0
+file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synwork\lattice_prem.srd|io:o|time:1609386996|size:27413|exec:0
+file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\lattice.sap|io:o|time:1609386996|size:1281|exec:0
 file:C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v|io:i|time:1608771810|size:224837|exec:0
-file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\syntmp\lattice.plg|io:o|time:1609031483|size:0|exec:0
-file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synwork\lattice_prem.srd|io:o|time:1609031483|size:8736|exec:0
-file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synlog\lattice_premap.srr|io:o|time:1609031484|size:7632|exec:0
+file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\syntmp\lattice.plg|io:o|time:1609386996|size:0|exec:0
+file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synwork\lattice_prem.srd|io:o|time:1609386996|size:27413|exec:0
+file:C:\cloud\dev\verilog\tok\lattice\lattice_Implmnt\synlog\lattice_premap.srr|io:o|time:1609386996|size:3672|exec:0
 file:C:\lscc\iCEcube2.2017.08\synpbase\bin\m_generic.exe|io:i|time:1608771807|size:17853440|exec:1
 file:C:\lscc\iCEcube2.2017.08\synpbase\bin64\m_generic.exe|io:i|time:1608771808|size:32355840|exec:1

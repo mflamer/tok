@@ -24,7 +24,7 @@ module TOK(
   wire uart_tx_busy;
   wire [7:0] uart_rx_data;
   wire uart_error;
-  wire uart_stall = T == "\"" & uart_tx_busy | T == "'" & !uart_rx_valid;
+  wire uart_stall = (T == "\"" & uart_tx_busy) | (T == "'" & !uart_rx_valid);
 
   // ram
   wire write_flag = T == "#";    
@@ -138,7 +138,7 @@ module TOK(
   always @* begin
     casez({stall_, depth, T})
       13'b1_????_????????  : tc_ <= tc; 
-      {1'b0, 4'h0, "~"}    : tc_ <= table_rd;
+      {1'b0, 4'h0, "~"}    : tc_ <= table_rd[7:0];
       {1'b0, 4'h0, ")"}    : tc_ <= c_stk_r;  
       {1'b0, 4'h0, "}"}    : tc_ <= c_stk_r; 
       {1'b0, 4'h0, "?"}    : tc_ <= A ? c_stk_r : tc_plus_1;      
@@ -147,7 +147,7 @@ module TOK(
     end
 
 
-  // march  
+  // clk  
   always @(posedge clk or negedge reset) begin
     if (!reset) begin
       A <= 0;
@@ -169,7 +169,7 @@ module TOK(
 
 
 RAM ram(
-.din(A[7:0]),
+.din(A_low),
 .write_en(write_flag),
 .waddr(S[`RAM_WIDTH-1:0]),
 .wclk(clk),
@@ -236,7 +236,7 @@ UART uart(
 .wr(uart_wr),
 .valid(uart_rx_valid),
 .busy(uart_tx_busy),
-.tx_data(A_low),
+.tx_data(A_[7:0]),
 .rx_data(uart_rx_data),
 .error(uart_error)
 );
