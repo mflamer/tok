@@ -4,22 +4,22 @@ Register bits:  309 of 1000 (30.900%)
 I/O cells:      0
                                   Cell usage:
                                cell     count   Res Usage(%)
-                           SB_CARRY        86          100.0
-                             SB_DFF        51          100.0
-                            SB_DFFE       192          100.0
+                           SB_CARRY        71          100.0
+                             SB_DFF        28          100.0
+                            SB_DFFE       216          100.0
                            SB_DFFER        16          100.0
                           SB_DFFESR        10          100.0
-                          SB_DFFESS         2          100.0
+                          SB_DFFESS         1          100.0
                             SB_DFFR        14          100.0
                             SB_DFFS         8          100.0
                            SB_DFFSR        14          100.0
                            SB_DFFSS         2          100.0
                            SB_HFOSC         1          100.0
                               SB_IO         3          100.0
-                            SB_LUT4       796          100.0
+                            SB_LUT4      1036          100.0
                        SB_RAM256x16         2          100.0
                         SB_RAM512x8         1          100.0
-                        VERIFIC_PWR         6          100.0
+                        VERIFIC_PWR         8          100.0
 SUB MODULES
                                 RAM         1
 RAM(init_file="blank256.hex",data_width=16)         1
@@ -28,26 +28,26 @@ RAM(init_file="blank256.hex",data_width=16)_U0         1
                     STACK(WIDTH=16)         1
                                 TOK         1
                                UART         1
-                              TOTAL      1211
+                              TOTAL      1438
 ----------------------------------------------------------------------
 Report for cell TOK.v1
 Instance Path : tok
                                   Cell usage:
                                cell     count   Res Usage(%)
-                           SB_CARRY        86          100.0
-                             SB_DFF        51          100.0
-                            SB_DFFE       192          100.0
+                           SB_CARRY        71          100.0
+                             SB_DFF        28          100.0
+                            SB_DFFE       216          100.0
                            SB_DFFER        16          100.0
                           SB_DFFESR        10          100.0
-                          SB_DFFESS         2          100.0
+                          SB_DFFESS         1          100.0
                             SB_DFFR        14          100.0
                             SB_DFFS         8          100.0
                            SB_DFFSR        14          100.0
                            SB_DFFSS         2          100.0
-                            SB_LUT4       752           94.5
+                            SB_LUT4       970           93.6
                        SB_RAM256x16         2          100.0
                         SB_RAM512x8         1          100.0
-                        VERIFIC_PWR         5           83.3
+                        VERIFIC_PWR         7           87.5
 SUB MODULES
                                 RAM         1
 RAM(init_file="blank256.hex",data_width=16)         1
@@ -55,62 +55,64 @@ RAM(init_file="blank256.hex",data_width=16)_U0         1
                               STACK         1
                     STACK(WIDTH=16)         1
                                UART         1
-                              TOTAL      1161
+                              TOTAL      1366
 ----------------------------------------------------------------------
 Report for cell RAM(init_file="blank256.hex",data_width=16).v1
 Instance Path : tok.vals
                                   Cell usage:
                                cell     count   Res Usage(%)
                        SB_RAM256x16         1           50.0
-                        VERIFIC_PWR         1           16.7
+                        VERIFIC_PWR         1           12.5
                               TOTAL         2
 ----------------------------------------------------------------------
 Report for cell UART.v1
 Instance Path : tok.uart
                                   Cell usage:
                                cell     count   Res Usage(%)
-                           SB_CARRY        19           22.1
-                             SB_DFF        19           37.3
-                            SB_DFFE         8            4.2
+                           SB_CARRY        19           26.8
+                             SB_DFF        18           64.3
+                            SB_DFFE        10            4.6
                           SB_DFFESR        10          100.0
-                          SB_DFFESS         2          100.0
+                          SB_DFFESS         1          100.0
                            SB_DFFSR        14          100.0
                            SB_DFFSS         2          100.0
-                            SB_LUT4        57            7.2
-                        VERIFIC_PWR         1           16.7
-                              TOTAL       132
+                            SB_LUT4        54            5.2
+                        VERIFIC_PWR         1           12.5
+                              TOTAL       129
 ----------------------------------------------------------------------
 Report for cell RAM.v1
 Instance Path : tok.ram
                                   Cell usage:
                                cell     count   Res Usage(%)
-                            SB_LUT4        59            7.4
+                            SB_LUT4        40            3.9
                         SB_RAM512x8         1          100.0
-                        VERIFIC_PWR         1           16.7
-                              TOTAL        61
+                        VERIFIC_PWR         1           12.5
+                              TOTAL        42
 ----------------------------------------------------------------------
 Report for cell RAM(init_file="blank256.hex",data_width=16)_U0.v1
 Instance Path : tok.keys
                                   Cell usage:
                                cell     count   Res Usage(%)
                        SB_RAM256x16         1           50.0
-                        VERIFIC_PWR         1           16.7
+                        VERIFIC_PWR         1           12.5
                               TOTAL         2
 ----------------------------------------------------------------------
 Report for cell STACK.v1
 Instance Path : tok.C_stk
                                   Cell usage:
                                cell     count   Res Usage(%)
-                             SB_DFF        16           31.4
-                            SB_DFFE        56           29.2
-                            SB_LUT4        41            5.2
-                              TOTAL       113
+                             SB_DFF         7           25.0
+                            SB_DFFE        65           30.1
+                            SB_LUT4        45            4.3
+                        VERIFIC_PWR         1           12.5
+                              TOTAL       118
 ----------------------------------------------------------------------
 Report for cell STACK(WIDTH=16).v1
 Instance Path : tok.A_stk
                                   Cell usage:
                                cell     count   Res Usage(%)
-                             SB_DFF        16           31.4
-                            SB_DFFE       128           66.7
-                            SB_LUT4       129           16.2
-                              TOTAL       273
+                             SB_DFF         3           10.7
+                            SB_DFFE       141           65.3
+                            SB_LUT4       120           11.6
+                        VERIFIC_PWR         1           12.5
+                              TOTAL       265

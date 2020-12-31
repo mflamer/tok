@@ -3,7 +3,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
-Thu Dec 31 10:48:38 2020
+Thu Dec 31 12:30:44 2020
 
 
 Command Line:  C:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f lattice_lse.prj 
@@ -85,27 +85,27 @@ Analyzing Verilog file ../ram.v. VERI-1482
 Analyzing Verilog file ../stack.v. VERI-1482
 Analyzing Verilog file ../test.v. VERI-1482
 Analyzing Verilog file ../tok.v. VERI-1482
-WARNING - synthesis: ../tok.v(21): identifier uart_rx_valid is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(20): identifier uart_rx_valid is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(20): identifier T is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(21): identifier uart_tx_busy is used before its declaration. VERI-1875
 WARNING - synthesis: ../tok.v(21): identifier T is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(22): identifier uart_tx_busy is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(22): identifier T is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(27): identifier T is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(27): identifier T is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(30): identifier T is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(31): identifier A is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(40): identifier stall is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(40): identifier depth is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(57): identifier tc_plus_1 is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(57): identifier tc is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(57): identifier A is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(61): identifier stall is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(61): identifier depth is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(80): identifier A is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(81): identifier A is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(84): identifier tc_plus_1 is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(88): identifier A is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(104): identifier depth is used before its declaration. VERI-1875
-WARNING - synthesis: ../tok.v(105): identifier depth_ is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(26): identifier T is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(26): identifier T is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(29): identifier T is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(30): identifier A is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(39): identifier stall is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(39): identifier depth is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(55): identifier tc_plus_1 is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(55): identifier tc is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(55): identifier A is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(59): identifier stall is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(59): identifier depth is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(78): identifier A is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(79): identifier A is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(82): identifier tc_plus_1 is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(86): identifier A is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(103): identifier depth is used before its declaration. VERI-1875
+WARNING - synthesis: ../tok.v(104): identifier depth_ is used before its declaration. VERI-1875
 Analyzing Verilog file ../uart.v. VERI-1482
 Analyzing Verilog file ../lattice_top.v. VERI-1482
 Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
@@ -122,7 +122,12 @@ WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/
 WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(3725): empty port in module declaration. VERI-1294
 Top module name (Verilog): top
 INFO - synthesis: ../lattice_top.v(4): compiling module top. VERI-1018
-INFO - synthesis: ../tok.v(12): compiling module TOK. VERI-1018
+INFO - synthesis: ../tok.v(11): compiling module TOK. VERI-1018
+WARNING - synthesis: ../tok.v(98): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: ../tok.v(115): expression size 32 truncated to fit in target size 16. VERI-1209
+WARNING - synthesis: ../tok.v(133): expression size 32 truncated to fit in target size 4. VERI-1209
+WARNING - synthesis: ../tok.v(134): expression size 32 truncated to fit in target size 4. VERI-1209
+WARNING - synthesis: ../tok.v(143): expression size 16 truncated to fit in target size 8. VERI-1209
 INFO - synthesis: ../ram.v(3): compiling module RAM. VERI-1018
 INFO - synthesis: ../stack.v(3): compiling module STACK(WIDTH=16). VERI-1018
 INFO - synthesis: ../stack.v(3): compiling module STACK. VERI-1018
@@ -156,19 +161,19 @@ Results of NGD DRC are available in top_drc.log.
 
 ################### Begin Area Report (top)######################
 Number of register bits => 309 of 1000 (30 % )
-SB_CARRY => 86
-SB_DFF => 51
-SB_DFFE => 192
+SB_CARRY => 71
+SB_DFF => 28
+SB_DFFE => 216
 SB_DFFER => 16
 SB_DFFESR => 10
-SB_DFFESS => 2
+SB_DFFESS => 1
 SB_DFFR => 14
 SB_DFFS => 8
 SB_DFFSR => 14
 SB_DFFSS => 2
 SB_HFOSC => 1
 SB_IO => 3
-SB_LUT4 => 796
+SB_LUT4 => 1036
 SB_RAM256x16 => 2
 SB_RAM512x8 => 1
 ################### End Area Report ##################
@@ -182,16 +187,16 @@ Number of Clock Enables: 0
 Top 0 highest fanout Clock Enables:
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : tok/n786, loads : 128
-  Net : tok/n29, loads : 128
-  Net : tok/A_stk/rd_15__N_301, loads : 128
-  Net : tok/rd_7__N_374, loads : 66
-  Net : tok/C_stk_delta_1, loads : 64
-  Net : tok/ram/T_0, loads : 50
-  Net : tok/ram/T_2, loads : 47
-  Net : tok/ram/T_1, loads : 43
-  Net : tok/reset_N_2, loads : 38
-  Net : tok/n14_adj_658, loads : 33
+  Net : tok/rd_15__N_300, loads : 143
+  Net : tok/ram/T_0, loads : 139
+  Net : tok/ram/T_4, loads : 136
+  Net : tok/ram/T_2, loads : 133
+  Net : tok/A_stk_delta_1, loads : 127
+  Net : tok/ram/T_3, loads : 114
+  Net : tok/ram/T_1, loads : 112
+  Net : tok/ram/T_6, loads : 108
+  Net : tok/ram/T_5, loads : 97
+  Net : tok/ram/T_7, loads : 72
 ################### End Clock Report ##################
 
 Timing Report Summary
@@ -201,7 +206,7 @@ Constraint                              |   Constraint|       Actual|Levels
 --------------------------------------------------------------------------------
                                         |             |             |
 create_clock -period 41.666667 -name    |             |             |
-clk0 [get_nets clk]                     |   24.000 MHz|   30.484 MHz|    21  
+clk0 [get_nets clk]                     |   24.000 MHz|   26.904 MHz|    24  
                                         |             |             |
 --------------------------------------------------------------------------------
 
@@ -209,8 +214,8 @@ clk0 [get_nets clk]                     |   24.000 MHz|   30.484 MHz|    21
 All constraints were met.
 
 
-Peak Memory Usage: 69.172  MB
+Peak Memory Usage: 55.008  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 3.016  secs
+Elapsed CPU time for LSE flow : 2.859  secs
 --------------------------------------------------------------

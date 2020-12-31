@@ -86,8 +86,8 @@ module TOK(
       5'b?_?_1_0_0: {stall_, idx_} = {1'b1, A[`TABLE_WIDTH-1:0]}; //table stall
       5'b1_0_1_0_1: {stall_, idx_} = {stall, idx + 1'b1};         //table clash, inc
       5'b1_1_1_0_1: {stall_, idx_} = {1'b0, idx};                 //table un-stall      
-      5'b?_?_?_1_0: {stall_, idx_} = {1'b1, idx};                //uart stall
-      5'b?_?_?_0_1: {stall_, idx_} = {1'b0, idx};                //uart un-stall      
+      5'b?_?_?_1_0: {stall_, idx_} = {1'b1, idx};                 //uart stall
+      5'b?_?_?_0_1: {stall_, idx_} = {1'b0, idx};                 //uart un-stall      
       default:      {stall_, idx_} = {stall, idx};                //no change
       endcase
     end 
@@ -113,11 +113,7 @@ module TOK(
         "-" : A_ = S - A;
         "_" : A_ = ~A;
         "=" : A_ = A == S ? -1 : 0;
-        "!" : A_ = S;
-        "%" : A_ = S; 
-        "~" : A_ = S; 
-        "~" : A_ = S; 
-        "$" : A_ = A;
+        "!", "%", "~" : A_ = S;
         "@" : A_ = table_rd;
         "'" : A_ = A << 8 | uart_rx_data;
         "\"": A_ = A >> 8;

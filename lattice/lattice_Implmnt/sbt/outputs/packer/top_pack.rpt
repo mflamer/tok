@@ -6,7 +6,7 @@
 
 * Build Date:         Sep 11 2017 16:52:36
 
-* File Generated:     Dec 31 2020 10:49:28
+* File Generated:     Dec 31 2020 12:31:30
 
 * Purpose:            General info of design implementation
 
@@ -28,7 +28,7 @@ Device Info:
 Design statistics:
 ------------------
     FFs:                  309
-    LUTs:                 803
+    LUTs:                 1044
     RAMs:                 3
     IOBs:                 3
     GBs:                  0
@@ -46,10 +46,10 @@ Design statistics:
 
 Logic Resource Utilization:
 ---------------------------
-    Total Logic Cells: 804/1248
-        Combinational Logic Cells: 495      out of   1248      39.6635%
+    Total Logic Cells: 1047/1248
+        Combinational Logic Cells: 738      out of   1248      59.1346%
         Sequential Logic Cells:    309      out of   1248      24.7596%
-        Logic Tiles:               118      out of   156       75.641%
+        Logic Tiles:               149      out of   156       95.5128%
     Registers: 
         Logic Registers:           309      out of   1248      24.7596%
         IO Registers:              0        out of   240       0
@@ -75,19 +75,19 @@ IO Bank Utilization:
 --------------------
     Bank 3: 0        out of   0         0%
     Bank 1: 0        out of   0         0%
-    Bank 0: 3        out of   12        25%
-    Bank 2: 0        out of   14        0%
+    Bank 0: 2        out of   12        16.6667%
+    Bank 2: 1        out of   14        7.14286%
 
 Detailed I/O Info:
 ------------------
     Input Pins: 
     Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name
     ----------  ---------  -----------  -------  -------  -----------    -----------
-    B2          Input      SB_LVCMOS    No       0        Simple Input   reset  
-    C2          Input      SB_LVCMOS    No       0        Simple Input   rx     
+    B2          Input      SB_LVCMOS    No       0        Simple Input   rx     
+    F5          Input      SB_LVCMOS    No       2        Simple Input   reset  
 
     Output Pins: 
     Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name
     ----------  ---------  -----------  -------  -------  -----------    -----------
-    A3          Output     SB_LVCMOS    No       0        Simple Output  tx     
+    C2          Output     SB_LVCMOS    No       0        Simple Output  tx     
 
