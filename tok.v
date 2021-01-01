@@ -4,7 +4,7 @@
 // ~ call to addr in A
 // { push tc on C_stk for loops
 // } pop C_stk to tc
-// pop C_stk to tc if A != 0
+// ? pop C_stk to tc if A != 0
 // ( store tc in table, skip until )
 // ) if executing, pop C_stk to tc
 

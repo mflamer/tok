@@ -6,7 +6,7 @@
 
 * Build Date:         Sep 11 2017 17:03:42
 
-* File Generated:     Dec 31 2020 12:31:30
+* File Generated:     Dec 31 2020 17:41:54
 
 * Purpose:            Router runtime info
 
@@ -21,7 +21,7 @@ Info-1409: Inferred clock at OSCInst0/CLKHF
 SDC-Info-1101: Duty cycle not specified for clock. Assuming 50 percent dutycycle.
 I1209: Started routing
 I1223: Total Nets : 1214 
-I1212: Iteration  1 :   204 unrouted : 1 seconds
+I1212: Iteration  1 :   204 unrouted : 2 seconds
 I1212: Iteration  2 :    31 unrouted : 1 seconds
 I1212: Iteration  3 :    21 unrouted : 0 seconds
 I1212: Iteration  4 :     2 unrouted : 0 seconds

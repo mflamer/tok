@@ -3,7 +3,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
-Thu Dec 31 12:30:44 2020
+Thu Dec 31 17:41:09 2020
 
 
 Command Line:  C:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f lattice_lse.prj 
@@ -214,8 +214,8 @@ clk0 [get_nets clk]                     |   24.000 MHz|   26.904 MHz|    24
 All constraints were met.
 
 
-Peak Memory Usage: 55.008  MB
+Peak Memory Usage: 55.066  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 2.859  secs
+Elapsed CPU time for LSE flow : 2.891  secs
 --------------------------------------------------------------

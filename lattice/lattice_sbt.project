@@ -4,7 +4,7 @@ Version=Lattice Semiconductor Corporation iCEcube - Release: 2017.08.27940 - Bui
 ProjectName=lattice
 Vendor=SiliconBlue
 Synthesis=lse
-ProjectVFiles=../ram.v=work,../stack.v=work,../test.v=work,../tok.v=work,../uart.v=work,../lattice_top.v=work
+ProjectVFiles=../ram.v,../stack.v,../test.v,../tok.v,../uart.v,../lattice_top.v
 ProjectCFiles=
 CurImplementation=lattice_Implmnt
 Implementations=lattice_Implmnt
