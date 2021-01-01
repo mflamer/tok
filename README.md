@@ -9,13 +9,13 @@
 
 
 -Instructions-
-0-9, A-F: shift in 4 bits of constant
-a-z: hash each letter for symbol lookup
-!: Set table slot of symb A = S.
-@: Swap val in table slot of symb A onto A.
-~ call to addr in table slot of symb A.
-{ push tc on C_stk for loops
-} pop C_stk to tc
-? pop C_stk to tc if A != 0
-( store tc in table, skip until ) function def.
-) if executing, pop C_stk to tc function ret. 
+ 0-9, A-F: shift in 4 bits of constant
+ a-z: hash each letter for symbol lookup
+ !: Set table slot of symb A = S.
+ @: Swap val in table slot of symb A onto A.
+ ~ call to addr in table slot of symb A.
+ { push tc on C_stk for loops
+ } pop C_stk to tc
+ ? pop C_stk to tc if A != 0
+ ( store tc in table, skip until ) function def.
+ ) if executing, pop C_stk to tc function ret. 
